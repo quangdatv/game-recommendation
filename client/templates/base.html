@@ -1,0 +1,46 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include "header.html" %}
+  {% block css-files %}
+  {% endblock %}
+</head>
+
+<body>
+  {% block nav-bar %}
+    <!--  Default Navigator Bar -->
+    <div class="ui top fixed menu borderless main nav-bar">
+      <div class="ui container">
+        <a href="/"><img class="nav-img" src="/static/images/logo2_pink.png"></a>
+
+        <div id="notification-box">
+          <div id="the-cat-box">
+            <img id="the-cat" src="/static/images/cat.gif">
+          </div>
+          <div class="ui blue message" id="the-message">Blue</div>
+        </div>
+
+
+
+        <div class="right item">
+          <div id="preference-button" class="ui inverted red button nav-button" style="display:none">Preference</div>
+          <a id="preference-link" href="/preferences"><button class="ui inverted red button nav-button">Preference</button></a>
+          <a href="/new"><button class="ui inverted red button nav-button">New Dish</button></a>
+          <a href="/about"><button class="ui inverted red button nav-button">About Us</button></a>
+        </div>
+      </div>
+    </div>
+  {% endblock %}
+
+  {% block content %}
+    <!--  Main content -->
+  {% endblock %}
+  {% block js-files %}
+    <!-- Additional Scripts -->
+  {% endblock %}
+</body>
+
+</html>

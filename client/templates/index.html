@@ -1,0 +1,59 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include "header.html" %}
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{% static "css/index.css" %}"/>
+</head>
+
+<body>
+  <script type="text/javascript">
+    $('#background_cycler').hide(); //hide the background while the images load, ready to fade in later
+  </script>
+  <div id="background_cycler">
+    <img src="/static/images/background-1.jpg" alt="" class="active" />
+    <img src="/static/images/background-2.jpg" alt="" />
+    <img src="/static/images/background-3.jpg" alt="" />
+  </div>
+  <div class="mask container">
+    <div class="ui container">
+      <div class="ui secondary menu">
+        <div class="left item">
+          <img class="ui logo-img" src="/static/images/logo.png">
+          <div> <h1 class="logo-text"> Game Master</h1></div>
+        </div>
+        <div class="right item">
+          <a href="/recommend.html/"><button class="ui inverted basic button index-button">Get Recommend</button> </a>
+          <a href="/about"><button class="ui inverted basic button index-button">About Us</button> </a>
+        </div>
+      </div>
+    </div>
+    <div class="ui text container">
+      <div class="header-big"> Welcome to GAME'S WORLD </div>
+      <div class="header-small"> Explore popular games out there </div>
+      <div class="go-button"> <a href="/recommend.html/"><button class="huge ui inverted button">Let's Go</button> </a> </div>
+    </div>
+  </div>
+</body>
+
+<script>
+  function cycleImages(){
+    var $active = $('#background_cycler .active');
+    var $next = ($('#background_cycler .active').next().length > 0) ? $('#background_cycler .active').next() : $('#background_cycler img:first');
+    $next.css('z-index', 2);//move the next image up the pile
+	  $active.fadeOut(1500, function(){//fade out the top image
+      $active.css('z-index', 1).show().removeClass('active'); //reset the z-index and unhide the image
+      $next.css('z-index', 3).addClass('active');//make the next image the top one
+    });
+  }
+  $(window).load(function(){
+    $('#background_cycler').fadeIn(1500);//fade the background back in once all the images are loaded
+      // run every 7s
+      setInterval('cycleImages()', 3000);
+  });
+</script>
+
+</html>
