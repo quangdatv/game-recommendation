@@ -1,6 +1,5 @@
 // variable indicate we are fetching data from server
 var isFetching = false;
-var browseGames = [];
 
 $(window).load(function(){
   $(".option-header").on("click", function() {
@@ -68,6 +67,14 @@ function finishFetching() {
   $("#main-container-loader").toggle();
 }
 
+function openGameDetail(game) {
+  var $modal = $('#card-detail-container');
+  $modal.modal('show');
+  $modal.find(".card-detail-image").attr("src", game.image[0]);
+  $modal.find(".card-detail-description").text(game.description);
+  $modal.find(".card-detail-name").text(game.name);
+}
+
 function updateGameList(gameList) {
   var $template = $("#card-template");
   var $container = $("#main-container");
@@ -76,9 +83,11 @@ function updateGameList(gameList) {
     $item.removeAttr("id");
     $item.find(".card-image")
       .attr("src", game.image[0])
-      .attr("index", index);
     $item.find(".card-name")
       .html(game.name);
+    $item.on("click", function() {
+      openGameDetail(game);
+    });
     $container.append($item[0]);
   })
 }
@@ -89,11 +98,9 @@ function handleSearch() {
   }
   var data = collectFormData();
   startFetching();
-  setTimeout(function() {
-    $.getJSON("https://jsonplaceholder.typicode.com/posts", data)
+  $.getJSON("https://jsonplaceholder.typicode.com/posts", data)
     .done(function(response) {
       // TODO: handle real data here
-      browseGames = mockData;
       updateGameList(mockData);
     })
     .fail(function(response) {
@@ -102,8 +109,6 @@ function handleSearch() {
     .always(function() {
       finishFetching();
     });      
-  }, 2000); 
-  
 }
 
 var mockData = [{
