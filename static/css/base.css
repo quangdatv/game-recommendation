@@ -1,0 +1,12 @@
+.nav-logo-img {
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+.nav-logo {
+  font-size: 25px;
+  font-weight: 900;
+  padding: 10px!important;
+  margin: 0 auto;
+}

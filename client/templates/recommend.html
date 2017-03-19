@@ -1,10 +1,58 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 
 {% block css-files %}
+  <link rel="stylesheet" href="{% static "css/recommend.css" %}"/>
 {% endblock %}
 
 {% block content %}
+  <div class="sidebar">
+    <button class="huge ui button" id="search-button">
+      <i class="search icon"></i>
+      Search
+    </button>
+    <div class="option-container" multiple-values>
+      <div class="option-header"> Genre </div>
+      <div class="option-body">
+        <div class="option-item"> Sport </div>
+        <div class="option-item"> Puzzle </div>
+        <div class="option-item"> Action </div>
+        <div class="option-item"> Role-playing </div>
+        <div class="option-item"> ... </div>
+      </div>
+    </div>
+    <div class="option-container" multiple-values>
+      <div class="option-header"> Mode </div>
+      <div class="option-body" style="display: none">
+        <div class="option-item"> Singleplayer </div>
+        <div class="option-item"> Multiplayers </div>
+        <div class="option-item"> Co-op </div>
+        <div class="option-item"> Massive multiplayer </div>
+      </div>
+    </div>
+    <div class="option-container" multiple-values>
+      <div class="option-header"> Platform </div>
+      <div class="option-body" style="display: none">
+        <div class="option-item"> Window </div>
+        <div class="option-item"> Play Station </div>
+        <div class="option-item"> Xbox </div>
+        <div class="option-item"> Mobile </div>
+        <div class="option-item"> ... </div>
+      </div>
+    </div>
+    <div class="option-container">
+      <div class="option-header"> Age Range </div>
+      <div class="option-body" style="display: none">
+        <div class="option-item"> early childhood </div>
+        <div class="option-item"> everyone </div>
+        <div class="option-item"> everyone 10+  </div>
+        <div class="option-item"> Teen</div>
+        <div class="option-item"> Muture </div>
+        <div class="option-item"> Adults only </div>
+      </div>
+    </div>
+  </div>
 {% endblock %}
 {% block js-files %}
-
+  <script src="{% static "js/recommend.js" %}"> </script>
 {% endblock %}

@@ -1,0 +1,68 @@
+.sidebar {
+  background: #383839;
+  position: fixed;
+  top: 0px;
+  width: 250px;
+  height: 100%;
+  z-index: 1;
+  padding-top: 90px;
+  color: white;
+  text-align: center;
+  overflow: auto;
+  -webkit-box-shadow: 10px 0 5px -2px #888;
+          box-shadow: 10px 0 5px -2px #888;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.option-container {
+  border-bottom: #7B1FA2 solid 1px;
+}
+
+.option-header {
+  color: #383839;
+  background: #AB47BC;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.option-body {
+  padding: 10px 0;
+}
+
+.option-item {
+  padding: 15px 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.option-header:hover, .option-item:hover {
+  cursor: pointer;
+}
+
+.option-header:hover {
+  background: #9C27B0;
+  transition: all 0.2s;
+}
+
+.option-item:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.option-item.selected {
+  color: #AB47BC;
+  font-weight: bold;
+}
+
+#search-button {
+  width: 100%;
+  border-radius: 0px;
+}
