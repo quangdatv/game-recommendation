@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block css-files %}
+  <link rel="stylesheet" href="{% static "css/recommend.css" %}"/>
+{% endblock %}
+
+{% block content %}
+  <div class="sidebar">
+    <button class="huge ui button" id="search-button">
+      <i class="search icon"></i>
+      Search
+    </button>
+    <div class="option-container" multiple-values name="genre">
+      <div class="option-header"> Genre </div>
+      <div class="option-body">
+        <div class="option-item" value="sport"> Sport </div>
+        <div class="option-item" value="puzzle"> Puzzle </div>
+        <div class="option-item" value="action"> Action </div>
+        <div class="option-item" value="role-playing"> Role-playing </div>
+        <div class="option-item" value="..."> ... </div>
+      </div>
+    </div>
+    <div class="option-container" multiple-values name="mode">
+      <div class="option-header"> Mode </div>
+      <div class="option-body" style="display: none">
+        <div class="option-item" value="singleplayer"> Singleplayer </div>
+        <div class="option-item" value="multiplayer"> Multiplayers </div>
+        <div class="option-item" value="co-op"> Co-op </div>
+        <div class="option-item" value="massive-multiplayer"> Massive multiplayer </div>
+      </div>
+    </div>
+    <div class="option-container" multiple-values name="platform">
+      <div class="option-header"> Platform </div>
+      <div class="option-body" style="display: none">
+        <div class="option-item" value="window"> Window </div>
+        <div class="option-item" value="ps"> Play Station </div>
+        <div class="option-item" value="xbox"> Xbox </div>
+        <div class="option-item" value="mobile"> Mobile </div>
+      </div>
+    </div>
+    <div class="option-container" name="age-range">
+      <div class="option-header"> Age Range </div>
+      <div class="option-body" style="display: none">
+        <div class="option-item" value="ec"> early childhood </div>
+        <div class="option-item" value="eo"> everyone </div>
+        <div class="option-item" value="eo10"> everyone 10+  </div>
+        <div class="option-item" value="t"> Teen</div>
+        <div class="option-item" value="m"> Muture </div>
+        <div class="option-item" value="a"> Adults only </div>
+      </div>
+    </div>
+    <div class="option-container" multiple-values name="difficulty">
+      <div class="option-header"> Difficulty </div>
+      <div class="option-body" style="display: none">
+        <div class="option-item" value="simple"> Simple </div>
+        <div class="option-item" value="easy"> Easy </div>
+        <div class="option-item" value="just-right"> Just Right </div>
+        <div class="option-item" value="tough"> Tough </div>
+        <div class="option-item" value="unforgiving"> Unforgiving </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-container-wrapper">
+    <div id="main-container">
+
+      <div class="active ui text loader" id="main-container-loader" style="display: none">Loading</div>      
+
+      <div class="ui warning message" id="main-container-warning" style="display: none">
+        <i class="close icon"></i>
+        <div class="header">
+          There is no game matching your query
+        </div>
+        You can try changing your selection.
+      </div>
+    </div>
+
+    <div class="fullscreen ui modal" id="card-detail-container">
+      <div class="card-detail-main">
+        <div class="card-detail-image-wrapper">
+          <img class="card-detail-image" src=""/>
+        </div>
+        <p class="card-detail-description"> </p>
+      </div>
+      <div class="card-detail-extra">
+        <h2 class="card-detail-name"> </h2>
+      </div>
+    </div>
+  </div>
+  <div id="card-template" class="card-container">
+    <div class="card-image-wrapper">
+      <img class="card-image" src=""/>
+    </div>
+    <div class="card-content">
+      <div class="card-name"> Game </div>
+    </div>
+  </div>
+{% endblock %}
+{% block js-files %}
+  <script src="{% static "js/recommend.js" %}"> </script>
+{% endblock %}

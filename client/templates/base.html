@@ -1,0 +1,34 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include "header.html" %}
+  {% block css-files %}
+  {% endblock %}
+</head>
+
+<body>
+  {% block nav-bar %}
+    <!--  Default Navigator Bar -->
+    <div class="ui top fixed menu borderless inverted">
+      <div class="ui container">
+        <div class="item nav-logo">
+          <span> GAME </span>
+          <span> <a href="/"> <img class="nav-logo-img" src="/static/images/logo-white.png"> </a> </span>
+          <span> EXPERT </span>
+        </div>
+      </div>
+    </div>
+  {% endblock %}
+
+  {% block content %}
+    <!--  Main content -->
+  {% endblock %}
+  {% block js-files %}
+    <!-- Additional Scripts -->
+  {% endblock %}
+</body>
+
+</html>

@@ -96,3 +96,5 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+.vscode
