@@ -17,6 +17,8 @@ def index(request):
 def recommend(request):
     return render(request, 'recommend.html')
 
+def new(request):
+    return render(request, 'new.html')
 
 #Insert new game into DB & facts file
 #DB is for getting id purpose only
