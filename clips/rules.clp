@@ -17,7 +17,6 @@
                 ", release-date: " ?release-date ", length: " ?length
                 ", rating: " ?rating ", difficulty: " ?difficulty crlf)
         (assert ?new-game)
-        )
 )
 
 (defrule update-game "enable user to edit game uploaded by them"
@@ -38,7 +37,9 @@
 (defrule remove-game "remove a game"
         ?game-id <- (game (id ?id))
         =>
-        (retract ?game-id))
+        (retract ?game-id)
+)
+
 
 (defrule add-game-review "add a review for a game"
         ?new-review <- (review (id ?id)
@@ -61,6 +62,7 @@
         =>
         (retract ?review-id))
 
+
 (defrule game-rating "rating the game"
         ?game <- (game (id ?id)
                 (rating ?rating&:(> ?rating -1)&:(< ?rating 6)))
@@ -80,10 +82,12 @@
         )
 )
 
+
 (defrule filtering "print all facts"
         ?filter <- (filter (genre ?genre)
                 (age-range ?age-range)
                 (game-mode ?game-mode)
                 (rating ?rating))
         => 
-        (printout t "all facts: " ?filter crlf))
+        (printout t "all facts: " ?filter crlf)
+)
