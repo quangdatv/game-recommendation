@@ -81,7 +81,7 @@ function openGameDetail(game) {
   // empty content and add the list detail
   var $cardDetailContentList = $modal.find(".card-detail-content-list");
   $cardDetailContentList.empty();
-  var detailKeys = ["publisher", "platforms", "price"];
+  var detailKeys = ["publisher", "platforms", "price", "rating"];
   detailKeys.forEach(function(key) {
     var value = game[key] || "";
     if ($.isArray(value)) {
@@ -133,15 +133,15 @@ function handleSearch() {
   }
   var data = collectFormData();
   startFetching();
-  $.getJSON("https://jsonplaceholder.typicode.com/posts", data)
+  $.post("/api/search", data)
     .done(function(response) {
       // TODO: handle real data here
-      updateGameList(mockData);
     })
     .fail(function(response) {
       $("#main-container-warning").transition('scale');
     })
     .always(function() {
+      updateGameList(mockData);
       finishFetching();
     });      
 }
@@ -217,7 +217,7 @@ function onReviewFormSubmit(event) {
   reviewComment = reviewComment.trim();
   reviewName = reviewName.trim();
   var errors = [];
-  if (reviewComment.length == 0) {
+  if (reviewName.length == 0) {
     errors.push("<div> Name should not be empty. </div>");
   }
   if (reviewComment.length == 0) {

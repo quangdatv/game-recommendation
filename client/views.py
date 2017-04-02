@@ -38,6 +38,7 @@ def addNewReview (request):
 def searchMatching (request):
 	result = clipsSearchMatching(request.POST)
 	print(result)
+	return HttpResponse(result, content_type='application/json')
 
 # Utilty function - DB
 def insertGameIntoDB (data):
@@ -125,10 +126,9 @@ def clipsSearchMatching (data):
     search = '(search ' +\
 				'(genre "'+data['genre']+'") ' +\
 				'(game-mode "'+data['game-mode']+'") ' +\
-				'(platforms "'+data['platforms']+'") ' +\
+				'(platform "'+data['platform']+'") ' +\
 				'(age-range "'+data['age-range']+'") ' +\
-				'(difficulty "'+data['difficulty']+'") ' +\
-				'(rating "'+data['rating']+'"))'
+				'(difficulty "'+data['difficulty']+'"))'
 
     #CLIPS
     clips.Clear()
