@@ -23,6 +23,6 @@ class Review(models.Model):
 	comment = models.TextField()
 
 class User(models.Model):
-	isAdmin = models.BooleanField(initial=False)
+	isAdmin = models.BooleanField(default=False)
 	name = models.CharField(max_length=50)
 	password = models.CharField(max_length=50)
