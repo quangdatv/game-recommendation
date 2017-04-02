@@ -93,7 +93,7 @@
             <h3 class="">Comments</h3>
             <i class="edit icon" onClick="toggleReviewForm()" style="cursor: pointer"></i>
           </div>
-          <form id="review-form" class="ui form error" style="display: none">
+          <form id="review-form" class="ui form error" style="display: none"> {% csrf_token %}
             <div class="field">
               <div class="two fields">
                 <div class="field">

@@ -8,7 +8,7 @@
 {% block content %}
   <div class="ui container main-container">
     <h2 class="ui dividing header"> Create new game </h2>
-    <form class="ui form grid" id="new-form">
+    <form class="ui form grid" id="new-form"> {% csrf_token %}
       <div class="row inline fields">
         <label class="four wide column">Name of the Game</label>
         <input type="text" name="name" class="six wide column" placeholder="Your Dish">
