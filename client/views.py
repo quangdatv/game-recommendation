@@ -17,21 +17,12 @@ def index(request):
 def recommend(request):
     return render(request, 'recommend.html')
 
-def new(request):
-    return render(request, 'new.html')
-
 #Insert new game into DB & facts file
 #DB is for getting id purpose only
 @csrf_exempt
 def addNewGame (request):
 	id = insertGameIntoDB(request.POST)
 	insertGameIntoClips(id, request.POST)
-	return HttpResponse('')
-
-@csrf_exempt
-def addNewReview (request):
-	id = insertReviewIntoDB(request.POST)
-	insertReviewIntoClips(id, request.POST)
 	return HttpResponse('')
 
 @csrf_exempt
