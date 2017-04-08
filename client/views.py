@@ -14,8 +14,8 @@ import time
 def index(request):
     return render(request, 'index.html')
 
-def recommend(request):
-    return render(request, 'recommend.html')
+def recommendation(request):
+    return render(request, 'recommendation.html')
 
 #Insert new game into DB & facts file
 #DB is for getting id purpose only
