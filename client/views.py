@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-from client.models import Game, Review, User
+from client.models import Game, Review
 from PIL import Image, ImageOps
 import datetime
 import os.path

@@ -123,5 +123,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+LOGIN_REDIRECT_URL = '/recommendation/'
+
 # Environment Variables
 CLIPS_DIR = os.path.join(BASE_DIR, 'clips')

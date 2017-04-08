@@ -21,8 +21,3 @@ class Review(models.Model):
 	gameId = models.IntegerField()
 	reviewerId = models.IntegerField()
 	comment = models.TextField()
-
-class User(models.Model):
-	isAdmin = models.BooleanField(default=False)
-	name = models.CharField(max_length=50)
-	password = models.CharField(max_length=50)
