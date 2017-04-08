@@ -8,29 +8,43 @@
   <div class="main-container"> 
     <div class="ui container">
       {% if not user.is_authenticated %}
-        {% if form.errors %}
-          <p>Your username and password didn't match. Please try again.</p>
-        {% endif %}
-        <form method="post" action="{% url 'django.contrib.auth.views.login' %}"> {% csrf_token %}
-          <p class="bs-component">
-              <table>
-                  <tr>
-                      <td>{{ form.username.label_tag }}</td>
-                      <td>{{ form.username }}</td>
-                  </tr>
-                  <tr>
-                      <td>{{ form.password.label_tag }}</td>
-                      <td>{{ form.password }}</td>
-                  </tr>
-              </table>
-          </p>
-          <p class="bs-component">
-            <center>
-                <input class="btn btn-success btn-sm" type="submit" value="login" />
-            </center>
-          </p>
-          <input type="hidden" name="next" value="{{ next }}" />
-        </form>
+        <div class="ui middle aligned center aligned grid">
+          <div class="column">
+            <h2 class="ui teal image header">
+              <div class="content">
+                Log-in to your account
+              </div>
+            </h2>
+            <form class="ui large form" method="post" action="{% url 'django.contrib.auth.views.login' %}"> {% csrf_token %}
+              <div class="ui stacked segment">
+                <div class="field">
+                  <div class="ui left icon input">
+                    <i class="user icon"></i>
+                    {{ form.username }}
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="ui left icon input">
+                    <i class="lock icon"></i>
+                    {{ form.password }}
+                  </div>
+                </div>
+                <button type="submit" value="login" class="ui fluid large teal submit button">Login</button>
+              </div>
+
+              {% if form.errors %}
+                <div class="ui error message">
+                <span> Your username and password didn't match. Please try again.</span>
+              </div>  
+              {% endif %}
+              <input type="hidden" name="next" value="{{ next }}" />          
+            </form>
+
+            <div class="ui message">
+              New to us? <a href="/signup/">Sign Up</a>
+            </div>
+          </div>
+        </div>
       {% endif %}
       {% if user.is_authenticated %}
         <p> You are already logged in </p>
