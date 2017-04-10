@@ -10,6 +10,7 @@
         (slot release-date (type STRING))
         (slot length (type NUMBER))
         (multislot difficulty (type STRING))
+        (slot image (type STRING))
 )
 
 (deftemplate search "user's search"

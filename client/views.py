@@ -54,12 +54,11 @@ def add_comment(request):
 
 @csrf_exempt
 def search_matching(request):
-    print('--------------------')
     if request.method != 'POST':
         return HttpResponse(status_code=401)
     results = clips_search_matching(request.POST)
     print(results)
-    return JsonResponse({})
+    return JsonResponse({'games': results})
 
 
 # TODO: Implement this method
@@ -158,6 +157,31 @@ def insert_comment_into_db(request):
         return False
 
 
+def parse_multislot_value(content):
+    content = content[2:-2]
+    values = []
+    for value in content.split('\" \"'):
+        values.append(value)
+    return values
+
+
+def parse_game_facts(content):
+    print('--------')
+    print(content)
+    if content is None:
+        return []
+    games = []
+    for game_raw in content.split('~~~')[0: -1]:
+        raw = game_raw.split('---')
+        game = {'id': raw[0], 'name': raw[1], 'description': raw[2],
+                'genre': parse_multislot_value(raw[3]), 'publisher': raw[4],
+                'platform': parse_multislot_value(raw[5]), 'age-range': raw[6],
+                'game-mode': parse_multislot_value(raw[7]), 'release-date': raw[8],
+                'length': raw[9], 'difficulty': parse_multislot_value(raw[10]), 'image': raw[11]}
+        games.append(game)
+    return games
+
+
 #Utility function - facts file
 def clips_search_matching(data):
     search = '(search ' +\
@@ -180,5 +204,4 @@ def clips_search_matching(data):
     clips.Reset()
     clips.Assert(search)
     clips.Run()
-    print('-------', clips.StdoutStream.Read())
-    return clips.StdoutStream.Read()
+    return parse_game_facts(clips.StdoutStream.Read())
