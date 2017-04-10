@@ -8,8 +8,8 @@
         (slot age-range (type STRING))
         (multislot game-mode (type STRING))
         (slot release-date (type STRING))
-        (slot length (type NUMBER))
-        (multislot difficulty (type STRING))
+        (slot length (type STRING))
+        (slot difficulty (type STRING))
         (slot image (type STRING))
 )
 
