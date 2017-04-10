@@ -177,13 +177,14 @@ def parse_game_facts(content):
                 'genre': parse_multislot_value(raw[3]), 'publisher': raw[4],
                 'platform': parse_multislot_value(raw[5]), 'age-range': raw[6],
                 'game-mode': parse_multislot_value(raw[7]), 'release-date': raw[8],
-                'length': raw[9], 'difficulty': parse_multislot_value(raw[10]), 'image': raw[11]}
+                'length': raw[9], 'difficulty': raw[10], 'image': raw[11]}
         games.append(game)
     return games
 
 
 #Utility function - facts file
 def clips_search_matching(data):
+    print("-------start fucking")
     search = '(search ' +\
 				'(genre "'+data['genre']+'") ' +\
 				'(game-mode "'+data['game-mode']+'") ' +\
@@ -194,14 +195,14 @@ def clips_search_matching(data):
     #CLIPS
     print(search)
     clips.Clear()
-    clips.BatchStar(settings.CLIPS_DIR + "/templates.clp")
-    if os.path.isfile(settings.CLIPS_DIR + "/games.clp"):
-        clips.BatchStar(settings.CLIPS_DIR + "/games.clp")
-    if os.path.isfile(settings.CLIPS_DIR + "/reviews.clp"):
-        clips.BatchStar(settings.CLIPS_DIR + "/reviews.clp")
-    clips.BatchStar(settings.CLIPS_DIR + "/rules.clp")
-    clips.BatchStar(settings.CLIPS_DIR + "/test-facts.clp")
+    clips.Load(settings.CLIPS_DIR + "/templates.clp")
+    print("-------start truoc khi load")
+    clips.Load(settings.CLIPS_DIR + "/games.clp")
+    print("-------start sau khi load")
+    clips.Load(settings.CLIPS_DIR + "/rules.clp")
+    # clips.Load(settings.CLIPS_DIR + "/test-facts.clp")
     clips.Reset()
     clips.Assert(search)
+    print("-------start truoc khi run")
     clips.Run()
     return parse_game_facts(clips.StdoutStream.Read())
