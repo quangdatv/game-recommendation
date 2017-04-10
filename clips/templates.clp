@@ -9,7 +9,7 @@
         (multislot game-mode (type STRING))
         (slot release-date (type STRING))
         (slot length (type NUMBER))
-        (slot difficulty (type STRING))
+        (multislot difficulty (type STRING))
 )
 
 (deftemplate search "user's search"

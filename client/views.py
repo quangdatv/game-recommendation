@@ -7,7 +7,6 @@ from client.forms import RegistrationForm
 from django.template import RequestContext
 from django.contrib.auth.models import User
 
-from PIL import Image, ImageOps
 import datetime
 import os.path
 import clips
@@ -55,7 +54,7 @@ def add_comment(request):
 
 @csrf_exempt
 def search_matching(request):
-    print('--------------------')        
+    print('--------------------')
     if request.method != 'POST':
         return HttpResponse(status_code=401)
     results = clips_search_matching(request.POST)
@@ -67,7 +66,7 @@ def search_matching(request):
 def get_game_detail(request):
     if request.method != 'GET':
         return HttpResponse(status_code=404)
-    
+
     return HttpResponse()
 
 
@@ -169,7 +168,7 @@ def clips_search_matching(data):
 				'(difficulty "'+data['difficulty']+'"))'
 
     #CLIPS
-    print('-------')
+    print(search)
     clips.Clear()
     clips.BatchStar(settings.CLIPS_DIR + "/templates.clp")
     if os.path.isfile(settings.CLIPS_DIR + "/games.clp"):
