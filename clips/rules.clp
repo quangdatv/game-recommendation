@@ -1,3 +1,12 @@
+(defrule search-matching
+        (game (id ?id) (name ?name) (description ?description) (genre)
+                (publisher ?publisher) (platform ?platform) (age-range ?age-range)
+                (game-mode ?game-mode) (release-date ?release-date) (length ?length)
+                (difficulty ?difficulty))
+        
+)
+
+
 (defrule add-new-game "print new game"
         ?game <- (game (id ?id)
                 (name ?name)

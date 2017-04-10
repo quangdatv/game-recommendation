@@ -1,6 +1,5 @@
 from django.conf import settings
 from django.shortcuts import render
-from django.http import JsonResponse
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.views.decorators.csrf import csrf_exempt, csrf_protect
 from client.models import Game, Comment, Like
@@ -47,6 +46,7 @@ def signup(request):
 def add_comment(request):
     if not request.user.is_authenticated() or request.method != 'POST':
         return HttpResponse(status_code=401)
+
     is_success = insert_comment_into_db(request)
     if not is_success:
         return HttpResponse(status_code=404)
@@ -54,10 +54,13 @@ def add_comment(request):
 
 
 @csrf_exempt
-def search_matching (request):
-	result = clips_search_matching(request.POST)
-	print(result)
-	return HttpResponse(result, content_type='application/json')
+def search_matching(request):
+    print('--------------------')        
+    if request.method != 'POST':
+        return HttpResponse(status_code=401)
+    results = clips_search_matching(request.POST)
+    print(results)
+    return JsonResponse({})
 
 
 # TODO: Implement this method
@@ -157,7 +160,7 @@ def insert_comment_into_db(request):
 
 
 #Utility function - facts file
-def clips_search_matching (data):
+def clips_search_matching(data):
     search = '(search ' +\
 				'(genre "'+data['genre']+'") ' +\
 				'(game-mode "'+data['game-mode']+'") ' +\
@@ -166,6 +169,7 @@ def clips_search_matching (data):
 				'(difficulty "'+data['difficulty']+'"))'
 
     #CLIPS
+    print('-------')
     clips.Clear()
     clips.BatchStar(settings.CLIPS_DIR + "/templates.clp")
     if os.path.isfile(settings.CLIPS_DIR + "/games.clp"):
@@ -173,7 +177,9 @@ def clips_search_matching (data):
     if os.path.isfile(settings.CLIPS_DIR + "/reviews.clp"):
         clips.BatchStar(settings.CLIPS_DIR + "/reviews.clp")
     clips.BatchStar(settings.CLIPS_DIR + "/rules.clp")
+    clips.BatchStar(settings.CLIPS_DIR + "/test-facts.clp")
     clips.Reset()
     clips.Assert(search)
     clips.Run()
+    print('-------', clips.StdoutStream.Read())
     return clips.StdoutStream.Read()
