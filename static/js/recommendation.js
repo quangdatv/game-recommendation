@@ -94,10 +94,6 @@ function openGameDetail(game) {
       "</div>"
     )
   });
-  // show game star
-  var $rating = $modal.find(".card-detail-rating");
-  $rating.empty();
-  $rating.append(generateRating(game.rating || 0, "card-detail-rating-star rating-star"));
   // comments
   var $comments = $modal.find(".card-detail-comments")
   $comments.find(".comment").remove();
@@ -118,8 +114,6 @@ function updateGameList(gameList) {
       .attr("src", game.image[0])
     $item.find(".card-name")
       .html(game.name);
-    $item.find(".card-rating")
-      .append(generateRating(game.rating || 0, "rating-star"));
     $item.on("click", function() {
       openGameDetail(game);
     });
@@ -146,22 +140,6 @@ function handleSearch() {
     });      
 }
 
-function generateRating(rating, classes) {
-  var result = "";
-  var flooredRating = Math.floor(rating);
-  for (var i = flooredRating; i > 0; i--) {
-    result += '<i class="star icon ' + classes + '"></i>';
-  }
-  let remainRating = rating - flooredRating;
-  if (remainRating > 0.25 && remainRating < 0.75) {
-    result += '<i class="half empty star icon ' + classes + '"></i>';
-  }
-  if (remainRating >= 0.75) {
-    result += '<i class="star icon ' + classes + '"></i>';
-  }
-  return "<span>" + result + "</span>";
-}
-
 function generateComment(review) {
   var imageWidth = 500;
   var imageHeight = 500;
@@ -181,7 +159,6 @@ function generateComment(review) {
           <span class="date">Today at 5:42PM</span>
         </div>
         <br/>
-        <div class="metadata">` + generateRating(review.stars, "rating-star") + `</div>
         <div class="text">` + review.comment + `</div>
       </div>
     </div>`;
@@ -197,50 +174,21 @@ function toggleReviewForm() {
   }
 }
 
-function reviewStarClicked(rating) {
-  $(".review-stars").find(".review-star").each(function(index, star) {
-    if (index <= rating - 1) {
-      $(star).removeClass("empty");
-    } else {
-      $(star).addClass("empty");
-    }
-  });
-  $("#review-form").find("input[name='review-stars']").val(rating);
-}
-
 function onReviewFormSubmit(event) {
   event.preventDefault();
   var $form = $("#review-form");
-  var reviewName = $form.find("input[name='review-name']").val();
   var reviewComment = $form.find("textarea[name='review-comment']").val();
-  var reviewRating = parseInt($form.find("input[name='review-stars']").val());
   reviewComment = reviewComment.trim();
-  reviewName = reviewName.trim();
-  var errors = [];
-  if (reviewName.length == 0) {
-    errors.push("<div> Name should not be empty. </div>");
-  }
   if (reviewComment.length == 0) {
-    errors.push("<div> Comment should not be empty. </div>");
-  }
-  if (errors.length > 0) {
-    $form.find(".review-errors").show();
-    $form.find(".review-errors").empty().append("<span>" + errors.join("") +  "</span>");
     return false;
-  } else {
-    $form.find(".review-errors").hide();
-  }
+  } 
   // TODO: submit form here
   return true;
 }
 
 function resetReviewForm() {
-  reviewStarClicked(5);
   var $form = $("#review-form");
-  $form.find("input[name='review-name']").val("");
   $form.find("textarea[name='review-comment']").val("");
-  $form.find("input[name='review-stars']").val(5);
-  $form.find(".review-errors").hide();
 }
 
 var mockData = [{
@@ -317,9 +265,9 @@ var mockData = [{
   platforms: ["iOS, Android"]
 }];
 
-var mockComment = [{"comment": "This game sucks", "stars": 1, "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu", "stars": 4, "author": "Messi"},
-                  {"comment": "This game sucks", "stars": 1, "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu", "stars": 4, "author": "Messi"},
-                  {"comment": "This game sucks", "stars": 1, "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu", "stars": 4, "author": "Messi"}];
+var mockComment = [{"comment": "This game sucks", "author": "Cristiano Ronaldo"},
+                  {"comment": "I love you chiu chiu",  "author": "Messi"},
+                  {"comment": "This game sucks",  "author": "Cristiano Ronaldo"},
+                  {"comment": "I love you chiu chiu",  "author": "Messi"},
+                  {"comment": "This game sucks", "author": "Cristiano Ronaldo"},
+                  {"comment": "I love you chiu chiu", "author": "Messi"}];

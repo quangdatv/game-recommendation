@@ -33,7 +33,6 @@ def signup(request):
             password=form.cleaned_data['password1'],
             email=form.cleaned_data['email'])
             return HttpResponseRedirect('/login/')
-        print(form.errors)
     else:
         form = RegistrationForm()
  

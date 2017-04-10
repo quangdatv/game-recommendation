@@ -84,8 +84,6 @@
       </div>
       <div class="card-detail-extra">
         <h2 class="card-detail-name"> </h2>
-        <div class="card-detail-rating">
-        </div>
         <section class="card-detail-content-list">
         </section>
         <section class="ui comments card-detail-comments">
@@ -95,29 +93,8 @@
           </div>
           <form id="review-form" class="ui form error" style="display: none"> {% csrf_token %}
             <div class="field">
-              <div class="two fields">
-                <div class="field">
-                  <input type="text" name="review-name" placeholder="Your Name" required>
-                </div>
-                <div class="field review-stars">
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(1)"></i>
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(2)"></i>
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(3)"></i>
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(4)"></i>
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(5)"></i>
-                </div>
-              </div>
-            </div>
-
-            <!-- Comment -->
-            <div class="field">
-              <input type="text" name="review-stars" style="display:none" value="5">
               <textarea name="review-comment" rows="3" placeholder="Your comment here ..." required></textarea>
             </div>
-
-            <!-- Errors -->
-            <div class="ui error message review-errors" style="display:none"></div>
-            <!-- Submit button -->
             <div class="inline fields">
               <button class="ui submit teal button" type="submit"><i class="icon edit"></i> Submit</button>
             </div>
@@ -131,7 +108,7 @@
       <img class="card-image" src=""/>
     </div>
     <div class="card-content">
-      <div class="card-rating"> </div>
+      <div class="card-status"> </div>
       <div class="card-name"> Game </div>
     </div>
   </div>
