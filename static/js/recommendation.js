@@ -1,6 +1,7 @@
 // variable indicate we are fetching data from server
 var isFetching = false;
 var currentOpenedGame = null;
+var currentOpenedGameExtra = {like_count: 10, dislike_count: 5};
 
 $(window).load(function(){
   $(".option-header").on("click", function() {
@@ -95,6 +96,9 @@ function openGameDetail(game) {
       "</div>"
     )
   });
+  // status
+  // TODO: get real data + fetching data here
+  updateGameDetailStatus();
   // comments
   var $comments = $modal.find(".card-detail-comments")
   $comments.find(".comment").remove();
@@ -192,6 +196,53 @@ function onReviewFormSubmit(event) {
 function resetReviewForm() {
   var $form = $("#review-form");
   $form.find("textarea[name='review-comment']").val("");
+}
+
+function likeButtonClicked() {
+  if (!currentOpenedGameExtra) return;
+  // is_like = true / false / undefined corresponding to like / dislike / none
+  var likeStatus = currentOpenedGameExtra.is_liked;
+  if (likeStatus === true) {
+    // TODO: call unlike-api here
+    currentOpenedGameExtra.is_liked = null;
+    currentOpenedGameExtra.like_count -= 1;
+  } else {
+    // TODO: call like-api here
+    currentOpenedGameExtra.is_liked = true;
+    currentOpenedGameExtra.like_count += 1;
+    if (likeStatus === false) currentOpenedGameExtra.dislike_count -= 1;
+  }
+  updateGameDetailStatus();
+}
+
+function dislikeButtonClicked() {
+  if (!currentOpenedGameExtra) return;
+  var likeStatus = currentOpenedGameExtra.is_liked;
+  if (likeStatus === false) {
+    // TODO: call undislike-api here
+    currentOpenedGameExtra.is_liked = null;
+    currentOpenedGameExtra.dislike_count -= 1;
+  } else {
+    // TODO: call dislike-api here
+    currentOpenedGameExtra.is_liked = false
+    currentOpenedGameExtra.dislike_count += 1;
+    if (likeStatus === true) currentOpenedGameExtra.like_count -= 1
+  }
+  updateGameDetailStatus();
+}
+
+function updateGameDetailStatus() {
+  $("#card-detail-container .card-detail-like-count").text(currentOpenedGameExtra.like_count);
+  $("#card-detail-container .card-detail-dislike-count").text(currentOpenedGameExtra.dislike_count);
+  $("#card-detail-container .like-button").removeClass("active").addClass("outline");
+  $("#card-detail-container .dislike-button").removeClass("active").addClass("outline");
+  var likeStatus = currentOpenedGameExtra.is_liked
+  if (likeStatus === undefined || likeStatus === null) return;
+  if (likeStatus) {
+    $("#card-detail-container .like-button").addClass("active").removeClass("outline");
+  } else {
+    $("#card-detail-container .dislike-button").addClass("active").removeClass("outline");
+  }
 }
 
 var mockData = [{

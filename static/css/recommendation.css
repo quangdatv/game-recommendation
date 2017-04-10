@@ -247,7 +247,7 @@
 }
 
 .card-detail-comments {
-  margin-top: 50px!important;
+  margin-top: 20px!important;
   text-align: left;
   max-height: 400px!important;
   overflow: auto;
@@ -258,4 +258,23 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+}
+
+.card-detail-status {
+  text-align: left;
+  padding-top: 50px;
+}
+
+.card-detail-status i {
+  font-size: 20px;
+  margin-right: 0px!important;
+  cursor: pointer;
+}
+
+.like-button.active, .dislike-button.active {
+  color:red;
+}
+
+.card-detail-like-count, .card-detail-dislike-count {
+  margin-right: 10px;
 }
