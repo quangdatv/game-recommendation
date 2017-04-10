@@ -14,3 +14,10 @@ body > .grid {
 .column {
   max-width: 450px;
 }
+
+.error-message {
+  color: red;
+  text-align: left;
+  padding: 10px 10px;
+  line-height: 2;
+}

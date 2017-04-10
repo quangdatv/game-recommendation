@@ -1,9 +1,13 @@
 from django.conf import settings
 from django.shortcuts import render
 from django.http import JsonResponse
-from django.http import HttpResponse
-from django.views.decorators.csrf import csrf_exempt
+from django.http import HttpResponse, HttpResponseRedirect
+from django.views.decorators.csrf import csrf_exempt, csrf_protect
 from client.models import Game, Review
+from client.forms import RegistrationForm
+from django.template import RequestContext
+from django.contrib.auth.models import User
+
 from PIL import Image, ImageOps
 import datetime
 import os.path
@@ -16,6 +20,24 @@ def index(request):
 
 def recommendation(request):
     return render(request, 'recommendation.html')
+
+@csrf_protect
+def signup(request):
+    if request.user.is_authenticated():
+        return HttpResponseRedirect('/')
+    if request.method == 'POST':
+        form = RegistrationForm(request.POST)
+        if form.is_valid():
+            user = User.objects.create_user(
+            username=form.cleaned_data['username'],
+            password=form.cleaned_data['password1'],
+            email=form.cleaned_data['email'])
+            return HttpResponseRedirect('/login/')
+        print(form.errors)
+    else:
+        form = RegistrationForm()
+ 
+    return render(request, 'signup.html', {'form': form})
 
 #Insert new game into DB & facts file
 #DB is for getting id purpose only
