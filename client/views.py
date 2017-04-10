@@ -7,6 +7,8 @@ from client.forms import RegistrationForm
 from django.template import RequestContext
 from django.contrib.auth.models import User
 
+import game_data
+
 import datetime
 import os.path
 import clips
@@ -58,6 +60,26 @@ def search_matching(request):
         return HttpResponse(status_code=401)
     results = clips_search_matching(request.POST)
     results = results[0: 100]
+    games = []
+    for raw_game in results:
+        game = append_game_extra_data(request, raw_game)
+        games.append(game)
+    return JsonResponse({'games': games})
+
+
+@csrf_exempt
+def get_recommendation(request):
+    if request.method != 'POST':
+        return HttpResponse(status_code=401)
+    # get like list
+    like_list = []
+    if request.user.is_authenticated():
+        like_list = Like.objects.filter(user_id=user_id)
+        if like_list.count() == 0:
+            like_list = Like.objects.all()
+    else:
+        like_list = Like.objects.all()
+    results = game_data.get_recommended_games(like_list)
     games = []
     for raw_game in results:
         game = append_game_extra_data(request, raw_game)
