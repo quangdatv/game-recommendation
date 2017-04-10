@@ -96,16 +96,24 @@ function openGameDetail(game) {
     )
   });
   // status
-  // TODO: get real data + fetching data here
   updateCurrentGameStatus();
   // comments
-  var $comments = $modal.find(".card-detail-comments")
-  $comments.find(".comment").remove();
-  mockComment.forEach(function(review) {
-    $comments.append(generateComment(review));
-  });
+  var loadingGameId = game.id
+  $.get("/api/comments/" + loadingGameId)
+    .done(function(response) {
+      updateComments(loadingGameId, response.comments)
+    })
   // clear review form
   resetReviewForm();
+}
+
+function updateComments(gameId, comments) {
+  if (!currentDetailGame || currentDetailGame.id != gameId) return
+  var $comments = $(".card-detail-comments");
+  $comments.find(".comment").remove();
+  comments.forEach(function(review) {
+    $comments.append(generateComment(review));
+  });
 }
 
 function updateGameList(gameList) {
@@ -164,7 +172,7 @@ function generateComment(review) {
                                             margin-top:-` + margintop + `px;margin-left:-` + marginleft + `px">
       </div>
       <div class="content">
-        <a class="author">` + review.author + `</a>
+        <a class="author">` + review.username + `</a>
         <div class="metadata">
           <span class="date">Today at 5:42PM</span>
         </div>
@@ -185,6 +193,8 @@ function toggleReviewForm() {
 }
 
 function onReviewFormSubmit(event) {
+  console.log("submitttttt");
+  if (!currentDetailGame) return;
   event.preventDefault();
   var $form = $("#review-form");
   var reviewComment = $form.find("textarea[name='review-comment']").val();
@@ -192,7 +202,12 @@ function onReviewFormSubmit(event) {
   if (reviewComment.length == 0) {
     return false;
   }
-  // TODO: submit form here
+
+  $.post("/api/make-comment/" + currentDetailGame.id, {comment: reviewComment})
+    .done(function(response) {
+      $(".card-detail-comments").append(generateComment(response.comment));
+      toggleReviewForm();
+    })
   return true;
 }
 
@@ -260,12 +275,3 @@ function updateCurrentGameStatus() {
     $("#card-detail-container .dislike-button").addClass("active").removeClass("outline");
   }
 }
-
-var mockComment = [{"comment": "This game sucks", "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu",  "author": "Messi"},
-                  {"comment": "This game sucks",  "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu",  "author": "Messi"},
-                  {"comment": "This game sucks", "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu", "author": "Messi"},
-                  {"comment": "This game sucks", "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu", "author": "Messi"}];

@@ -188,7 +188,38 @@ def get_like_status(user_id, game_id):
         return None
     return like.is_liked
 
-# Utilty function - DB
+
+def get_comments(request, game_id):
+    if request.method != 'GET':
+        HttpResponse(status_code=404)
+    comments = Comment.objects.filter(game_id=game_id)
+    dict_comments = []
+    for comment in comments:
+        dict_comments.append(comment_to_dict(comment))
+    return JsonResponse({'comments': dict_comments})
+
+
+@csrf_exempt
+def make_comment(request, game_id):
+    if request.method != 'POST' or not request.user.is_authenticated():
+        return HttpResponse(status_code=401)
+    comment = Comment(username=request.user.username, game_id=game_id, comment=request.POST['comment'])
+    try:
+        comment.save()
+        return JsonResponse({'comment': comment_to_dict(comment)})
+    except:
+        return HttpResponse(status_code=500)
+
+
+def comment_to_dict(comment):
+    data = {}
+    data['comment'] = comment.comment
+    data['username'] = comment.username
+    data['game_id'] = comment.game_id
+    data['created_at'] = comment.created_at
+    return data
+
+
 def insert_comment_into_db(request):
     comment = Comment(game_id=request.POST['game_id'],
         username=request.user.username,

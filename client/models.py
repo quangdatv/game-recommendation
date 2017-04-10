@@ -19,6 +19,7 @@ class Comment(models.Model):
 	game_id = models.IntegerField()
 	username = models.CharField(max_length=50)
 	comment = models.TextField()
+	created_at = models.DateTimeField(auto_now_add=True)
 
 class Like(models.Model):
 	game_id = models.IntegerField()

@@ -16,5 +16,7 @@ urlpatterns = [
     url(r'^api/unlike/(?P<game_id>[0-9])$', views.unlike_game, name='unlike_game'),
     url(r'^api/dislike/(?P<game_id>[0-9])$', views.dislike_game, name='dislike_game'),
     url(r'^api/undislike/(?P<game_id>[0-9])$', views.undislike_game, name='undislike_game'),
-    url(r'^api/like-status/(?P<game_id>[0-9])$', views.like_status, name='like_status')
+    url(r'^api/like-status/(?P<game_id>[0-9])$', views.like_status, name='like_status'),
+    url(r'^api/comments/(?P<game_id>[0-9])$', views.get_comments, name='get_comments'),
+    url(r'^api/make-comment/(?P<game_id>[0-9])$', views.make_comment, name='make_comment'),
 ]
