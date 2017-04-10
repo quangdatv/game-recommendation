@@ -22,5 +22,5 @@ class Comment(models.Model):
 
 class Like(models.Model):
 	game_id = models.IntegerField()
-	user_id = models.CharField(max_length=50)
+	user_id = models.IntegerField()
 	is_liked = models.BooleanField(default=True)
