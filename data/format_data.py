@@ -22,7 +22,7 @@ def gen_facts():
 	file.write('; Game facts\n')
 	file.write('(deffacts games\n')
 	#
-	game_list = helpers.read_json_from_file('crawler/game_list.json')
+	game_list = helpers.read_json_from_file('data/game_list.json')
 	cnt = 0
 	fact_template = '(game ' \
 				  + '(id {id}) ' \
