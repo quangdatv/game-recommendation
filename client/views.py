@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.http import HttpResponse, HttpResponseRedirect
 from django.views.decorators.csrf import csrf_exempt, csrf_protect
-from client.models import Game, Review
+from client.models import Game, Comment
 from client.forms import RegistrationForm
 from django.template import RequestContext
 from django.contrib.auth.models import User
@@ -19,6 +19,7 @@ def index(request):
     return render(request, 'index.html')
 
 def recommendation(request):
+    print(request.user.id)
     return render(request, 'recommendation.html')
 
 @csrf_protect
@@ -35,106 +36,41 @@ def signup(request):
             return HttpResponseRedirect('/login/')
     else:
         form = RegistrationForm()
- 
+
     return render(request, 'signup.html', {'form': form})
 
 #Insert new game into DB & facts file
 #DB is for getting id purpose only
 @csrf_exempt
-def addNewGame (request):
-	id = insertGameIntoDB(request.POST)
-	insertGameIntoClips(id, request.POST)
-	return HttpResponse('')
+def add_comment(request):
+    if not request.user.is_authenticated() or request.method != 'POST':
+        HttpResponse(status_code=401)
+    is_success = insert_comment_into_db(request)
+    if not is_success:
+        HttpResponse(status_code=404)
+	return HttpResponse()
 
 @csrf_exempt
-def searchMatching (request):
-	result = clipsSearchMatching(request.POST)
+def search_matching (request):
+	result = clips_search_matching(request.POST)
 	print(result)
 	return HttpResponse(result, content_type='application/json')
 
 # Utilty function - DB
-def insertGameIntoDB (data):
-	game = Game(name=data['name'],
-		description=date['description'],
-		genre=data['genre'],
-		publisher=data['publisher'],
-		platforms=data['platforms'],
-		ageRange=data['ageRange'],
-		gameMode=data['gameMode'],
-		releaseDate=data['releaseDate'],
-		length=data['length'],
-		rating=data['rating'],
-		difficulty=data['difficulty']
-	)
 
-	print(game)
-	game.save()
-	return game.id
-
-def insertReviewIntoDB (data):
-	review = Review(rating=data['rating'],
-		gameId=data['gameId'],
-		reviewerId=data['reviewerId'],
-		comment=data['comment']
-	)
-
-	print(review)
-	review.save()
-	return review.id
+def insert_comment_into_db(request):
+    comment = Comment(game_id=request.POST['game_id'],
+        username=request.user.username,
+        comment=request.POST['comment']
+    )
+    try:
+        comment.save()
+        return True
+    except Error:
+        return False
 
 #Utility function - facts file
-def insertGameIntoClips(id, data):
-    # check if a fact-file exists
-    FactsFile = settings.CLIPS_DIR + "/games.clp"
-    if not os.path.isfile(FactsFile):
-        file = open(FactsFile, 'w+')
-        file.write("(deffacts games)\n")
-        file.close()
-
-    # modify facts
-    lines = open(FactsFile, 'r+').readlines()
-    n = len(lines)
-    lines[n - 1] = lines[n-1][:-2] + "\n"
-    lines.append('  (game '
-                '(id '+str(id)+')'
-                '(name "'+data['name']+'") '
-                '(description "'+data['description']+'") '
-                '(genre "'+data['genre']+'") '
-                '(publisher "'+data['publisher']+'") '
-                '(platforms "'+data['platforms']+'") '
-                '(age-range "'+data['ageRange']+'")'
-                '(game-mode "'+data['game-mode']+'") '
-                '(release-date "'+data['releaseDate']+'") '
-                '(length "'+data['length']+'") '
-                '(difficulty "'+data['difficulty']+'") '
-                '(rating -1)))\n')
-
-    # new facts
-    open(FactsFile, 'w').writelines(lines)
-
-def insertReviewIntoClips(id, data):
-    # check if a fact-file exists
-    FactsFile = settings.CLIPS_DIR + "/reviews.clp"
-    if not os.path.isfile(FactsFile):
-        file = open(FactsFile, 'w+')
-        file.write("(deffacts reviews)\n")
-        file.close()
-
-    # modify facts
-    lines = open(FactsFile, 'r+').readlines()
-    n = len(lines)
-    lines[n - 1] = lines[n-1][:-2] + "\n"
-    lines.append('  (game '
-                '(id '+str(id)+')'
-                '(game-id "'+data['game-id']+'") '
-                '(reviewer-id "'+data['reviewer-id']+'") '
-                '(comment "'+data['comment']+'") '
-                '(rating "'+data['rating']+'")))\n')
-
-    # new facts
-    open(FactsFile, 'w').writelines(lines)
-
-def clipsSearchMatching (data):
+def clips_search_matching (data):
     search = '(search ' +\
 				'(genre "'+data['genre']+'") ' +\
 				'(game-mode "'+data['game-mode']+'") ' +\

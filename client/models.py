@@ -6,18 +6,21 @@ from django.db import models
 class Game(models.Model):
 	name = models.CharField(max_length=50)
 	description = models.TextField()
-	genre = models.CharField(max_length=50)
+	genres = models.CharField(max_length=50)
 	publisher = models.CharField(max_length=50)
 	platforms = models.CharField(max_length=50)
-	ageRange = models.CharField(max_length=50)
-	gameMode = models.CharField(max_length=50)
-	releaseDate = models.DateTimeField(auto_now_add=True, blank=True)
+	age_range = models.CharField(max_length=50)
+	game_mode = models.CharField(max_length=50)
+	release_date = models.DateTimeField(auto_now_add=True, blank=True)
 	length = models.DecimalField(max_digits=10, decimal_places=2)
-	rating = models.DecimalField(max_digits=10, decimal_places=2)
 	difficulty = models.CharField(max_length=50)
 
-class Review(models.Model):
-	rating = models.IntegerField()
-	gameId = models.IntegerField()
-	reviewerId = models.IntegerField()
+class Comment(models.Model):
+	game_id = models.IntegerField()
+	username = models.CharField(max_length=50)
 	comment = models.TextField()
+
+class Like(models.Model):
+	game_id = models.IntegerField()
+	user_id = models.CharField(max_length=50)
+	is_liked = models.BooleanField(default=True)
