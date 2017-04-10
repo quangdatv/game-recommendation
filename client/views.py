@@ -57,23 +57,27 @@ def search_matching(request):
     if request.method != 'POST':
         return HttpResponse(status_code=401)
     results = clips_search_matching(request.POST)
-    print(results)
-    return JsonResponse({'games': results})
+    results = results[0: 100]
+    games = []
+    for raw_game in results:
+        game = append_game_extra_data(request, raw_game)
+        games.append(game)
+    return JsonResponse({'games': games})
 
 
-# TODO: Implement this method
-def get_game_detail(request):
-    if request.method != 'GET':
-        return HttpResponse(status_code=404)
-
-    return HttpResponse()
+def append_game_extra_data(request, game):
+    like_count, dislike_count = status_count(request, game['id'])
+    game['like_count'] = like_count
+    game['dislike_count'] = dislike_count
+    if request.user.is_authenticated():
+        game['is_liked'] = get_like_status(request.user.id, game['id'])
+    return game
 
 
 @csrf_exempt
-def like_game(request):
+def like_game(request, game_id):
     if not request.user.is_authenticated() or request.method != 'POST':
         return HttpResponse(status_code=401)
-    game_id = request.POST['game_id']
     user_id = request.user.id
     like = Like.objects.filter(user_id=user_id, game_id=game_id).first()
     if like is not None and like.is_liked:
@@ -91,10 +95,9 @@ def like_game(request):
 
 
 @csrf_exempt
-def unlike_game(request):
+def unlike_game(request, game_id):
     if not request.user.is_authenticated() or request.method != 'POST':
         return HttpResponse(status_code=401)
-    game_id = request.POST['game_id']
     user_id = request.user.id
     like = Like.objects.filter(user_id=user_id, game_id=game_id).first()
     if like is None or not like.is_liked:
@@ -107,10 +110,9 @@ def unlike_game(request):
         HttpResponse(status_code=500)
 
 @csrf_exempt
-def dislike_game(request):
+def dislike_game(request, game_id):
     if not request.user.is_authenticated() or request.method != 'POST':
         return HttpResponse(status_code=401)
-    game_id = request.POST['game_id']
     user_id = request.user.id
     like = Like.objects.filter(user_id=user_id, game_id=game_id).first()
     if like is not None and not like.is_liked:
@@ -128,10 +130,9 @@ def dislike_game(request):
 
 
 @csrf_exempt
-def undislike_game(request):
+def undislike_game(request, game_id):
     if not request.user.is_authenticated() or request.method != 'POST':
         return HttpResponse(status_code=401)
-    game_id = request.POST['game_id']
     user_id = request.user.id
     like = Like.objects.filter(user_id=user_id, game_id=game_id).first()
     if like is None or like.is_liked:
@@ -143,6 +144,27 @@ def undislike_game(request):
     except Error:
         HttpResponse(status_code=500)
 
+
+def status_count(request, game_id):
+    like_count = Like.objects.filter(game_id=game_id, is_liked=True).count()
+    dislike_count = Like.objects.filter(game_id=game_id, is_liked=False).count()
+    return like_count, dislike_count
+
+
+def like_status(request, game_id):
+    if not request.user.is_authenticated() or request.method != 'GET':
+        return HttpResponse(status_code=401)
+    is_liked = get_like_status(request.user.id, game_id)
+    if is_liked is None:
+        return JsonResponse({})
+    return JsonResponse({'is_liked': is_liked})
+
+
+def get_like_status(user_id, game_id):
+    like = Like.objects.filter(user_id=user_id, game_id=game_id).first()
+    if like is None:
+        return None
+    return like.is_liked
 
 # Utilty function - DB
 def insert_comment_into_db(request):
@@ -166,8 +188,6 @@ def parse_multislot_value(content):
 
 
 def parse_game_facts(content):
-    print('--------')
-    print(content)
     if content is None:
         return []
     games = []
@@ -184,7 +204,6 @@ def parse_game_facts(content):
 
 #Utility function - facts file
 def clips_search_matching(data):
-    print("-------start fucking")
     search = '(search ' +\
 				'(genre "'+data['genre']+'") ' +\
 				'(game-mode "'+data['game-mode']+'") ' +\
@@ -196,13 +215,10 @@ def clips_search_matching(data):
     print(search)
     clips.Clear()
     clips.Load(settings.CLIPS_DIR + "/templates.clp")
-    print("-------start truoc khi load")
     clips.Load(settings.CLIPS_DIR + "/games.clp")
-    print("-------start sau khi load")
     clips.Load(settings.CLIPS_DIR + "/rules.clp")
     # clips.Load(settings.CLIPS_DIR + "/test-facts.clp")
     clips.Reset()
     clips.Assert(search)
-    print("-------start truoc khi run")
     clips.Run()
     return parse_game_facts(clips.StdoutStream.Read())
