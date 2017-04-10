@@ -28,6 +28,7 @@ $(window).load(function(){
   });
 
   $("#review-form").submit(onReviewFormSubmit);
+  $('.ui.modal').modal();
 });
 
 function handleItemSelected() {
@@ -114,6 +115,8 @@ function updateGameList(gameList) {
       .attr("src", game.image[0])
     $item.find(".card-name")
       .html(game.name);
+    $item.find(".card-like-count").text(10);
+    $item.find(".card-dislike-count").text(5);
     $item.on("click", function() {
       openGameDetail(game);
     });
@@ -269,5 +272,7 @@ var mockComment = [{"comment": "This game sucks", "author": "Cristiano Ronaldo"}
                   {"comment": "I love you chiu chiu",  "author": "Messi"},
                   {"comment": "This game sucks",  "author": "Cristiano Ronaldo"},
                   {"comment": "I love you chiu chiu",  "author": "Messi"},
+                  {"comment": "This game sucks", "author": "Cristiano Ronaldo"},
+                  {"comment": "I love you chiu chiu", "author": "Messi"},
                   {"comment": "This game sucks", "author": "Cristiano Ronaldo"},
                   {"comment": "I love you chiu chiu", "author": "Messi"}];
