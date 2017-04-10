@@ -125,5 +125,13 @@
   </div>
 {% endblock %}
 {% block js-files %}
+  <script>
+    var isLogin = false;
+  </script>
+  {% if user.is_authenticated %}
+    <script>
+      isLogin = true
+    </script>
+  {% endif %}
   <script src="{% static "js/recommendation.js" %}"> </script>
 {% endblock %}

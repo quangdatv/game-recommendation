@@ -1,9 +1,9 @@
 from django.conf import settings
 from django.shortcuts import render
 from django.http import JsonResponse
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.views.decorators.csrf import csrf_exempt, csrf_protect
-from client.models import Game, Comment
+from client.models import Game, Comment, Like
 from client.forms import RegistrationForm
 from django.template import RequestContext
 from django.contrib.auth.models import User
@@ -15,12 +15,14 @@ import clips
 import ast
 import time
 
+
 def index(request):
     return render(request, 'index.html')
 
+
 def recommendation(request):
-    print(request.user.id)
     return render(request, 'recommendation.html')
+
 
 @csrf_protect
 def signup(request):
@@ -44,11 +46,12 @@ def signup(request):
 @csrf_exempt
 def add_comment(request):
     if not request.user.is_authenticated() or request.method != 'POST':
-        HttpResponse(status_code=401)
+        return HttpResponse(status_code=401)
     is_success = insert_comment_into_db(request)
     if not is_success:
-        HttpResponse(status_code=404)
+        return HttpResponse(status_code=404)
 	return HttpResponse()
+
 
 @csrf_exempt
 def search_matching (request):
@@ -56,8 +59,91 @@ def search_matching (request):
 	print(result)
 	return HttpResponse(result, content_type='application/json')
 
-# Utilty function - DB
 
+# TODO: Implement this method
+def get_game_detail(request):
+    if request.method != 'GET':
+        return HttpResponse(status_code=404)
+    
+    return HttpResponse()
+
+
+@csrf_exempt
+def like_game(request):
+    if not request.user.is_authenticated() or request.method != 'POST':
+        return HttpResponse(status_code=401)
+    game_id = request.POST['game_id']
+    user_id = request.user.id
+    like = Like.objects.filter(user_id=user_id, game_id=game_id).first()
+    if like is not None and like.is_liked:
+        return HttpResponse(status_code=404)
+
+    if like is None:
+        like = Like(game_id=game_id, user_id=user_id, is_liked=True)
+    else:
+        like.is_liked = True
+    try:
+        like.save()
+        return JsonResponse({'is_liked': True})
+    except Error:
+        return HttpResponse(status_code=500)
+
+
+@csrf_exempt
+def unlike_game(request):
+    if not request.user.is_authenticated() or request.method != 'POST':
+        return HttpResponse(status_code=401)
+    game_id = request.POST['game_id']
+    user_id = request.user.id
+    like = Like.objects.filter(user_id=user_id, game_id=game_id).first()
+    if like is None or not like.is_liked:
+        return HttpResponse(status_code=404)
+
+    try:
+        like.delete()
+        return JsonResponse({})
+    except Error:
+        HttpResponse(status_code=500)
+
+@csrf_exempt
+def dislike_game(request):
+    if not request.user.is_authenticated() or request.method != 'POST':
+        return HttpResponse(status_code=401)
+    game_id = request.POST['game_id']
+    user_id = request.user.id
+    like = Like.objects.filter(user_id=user_id, game_id=game_id).first()
+    if like is not None and not like.is_liked:
+        return HttpResponse(status_code=404)
+
+    if like is None:
+        like = Like(game_id=game_id, user_id=user_id, is_liked=False)
+    else:
+        like.is_liked = False
+    try:
+        like.save()
+        return JsonResponse({'is_liked': False})
+    except Error:
+        return HttpResponse(status_code=500)
+
+
+@csrf_exempt
+def undislike_game(request):
+    if not request.user.is_authenticated() or request.method != 'POST':
+        return HttpResponse(status_code=401)
+    game_id = request.POST['game_id']
+    user_id = request.user.id
+    like = Like.objects.filter(user_id=user_id, game_id=game_id).first()
+    if like is None or like.is_liked:
+        return HttpResponse(status_code=404)
+
+    try:
+        like.delete()
+        return JsonResponse({})
+    except Error:
+        HttpResponse(status_code=500)
+
+
+# Utilty function - DB
 def insert_comment_into_db(request):
     comment = Comment(game_id=request.POST['game_id'],
         username=request.user.username,
@@ -68,6 +154,7 @@ def insert_comment_into_db(request):
         return True
     except Error:
         return False
+
 
 #Utility function - facts file
 def clips_search_matching (data):
