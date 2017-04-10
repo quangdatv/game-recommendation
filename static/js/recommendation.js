@@ -29,6 +29,9 @@ $(window).load(function(){
 
   $("#review-form").submit(onReviewFormSubmit);
   $('.ui.modal').modal();
+
+  // load the recommendation when lauching the page
+  loadRecommendedGameList();
 });
 
 function handleItemSelected() {
@@ -138,6 +141,17 @@ function updateGameList(gameList) {
     });
     $container.append($item[0]);
   })
+}
+
+function loadRecommendedGameList() {
+  startFetching();
+  $.get("/api/recommendation")
+    .done(function(response) {
+      updateGameList(response.games)
+    })
+    .always(function() {
+      finishFetching();
+    });
 }
 
 function handleSearch() {

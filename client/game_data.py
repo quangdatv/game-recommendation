@@ -18,7 +18,7 @@ def get_all_games():
 		if fact.Relation != 'game':
 			continue
 		game = {
-			'id': fact.Slots['id'], 'name': fact.Slots['name'],
+			'id': int(fact.Slots['id']), 'name': fact.Slots['name'],
 			'description': fact.Slots['description'],
 			'genre': list(fact.Slots['genre']),
 			'platform': list(fact.Slots['platform']),
@@ -45,7 +45,7 @@ def get_recommended_games(like_list):
 	# genre_score['visual-novel'] = -3
 	for like in like_list:
 		is_liked = 1 if like.is_liked else -1
-		for genre in game[like.game_id-1]['genres']:
+		for genre in games[like.game_id-1]['genre'] or []:
 			if genre_score.get(genre) is None:
 				genre_score[genre] = is_liked
 			else:
@@ -79,8 +79,3 @@ def get_recommended_games(like_list):
 if __name__ == "__main__":
 	get_games(7)
 	# get_all_games()
-
-
-
-
-	

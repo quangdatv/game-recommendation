@@ -69,12 +69,12 @@ def search_matching(request):
 
 @csrf_exempt
 def get_recommendation(request):
-    if request.method != 'POST':
+    if request.method != 'GET':
         return HttpResponse(status_code=401)
     # get like list
     like_list = []
     if request.user.is_authenticated():
-        like_list = Like.objects.filter(user_id=user_id)
+        like_list = Like.objects.filter(user_id=request.user.id)
         if like_list.count() == 0:
             like_list = Like.objects.all()
     else:
