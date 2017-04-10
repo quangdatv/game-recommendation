@@ -61,7 +61,41 @@ def gen_facts():
 	file.close()
 
 
+def get_properties():
+	game_list = helpers.read_json_from_file('data/game_list.json')
+	# Get genre score
+	genre_score = {}
+	game_modes = set()
+	platforms = set()
+	age_ranges = set()
+	difficulties = set()
+	for game in game_list:
+		for genre in game.get('genres'):
+			if genre_score.get(genre):
+				genre_score[genre] += 1
+			else:
+				genre_score[genre] = 1
+		for mode in game.get('modes') or []:
+			game_modes.add(mode)
+		for platform in game.get('platforms') or []:
+			platforms.add(platform)
+		age_ranges.add(game.get('esrb') or 'None')
+		difficulties.add(game.get('difficulty') or 'Not available')
+	# Sort genre by score
+	genres = sorted(genre_score.iterkeys(), key=lambda x: -genre_score[x])[:10]
+	# Make json
+	game_properties = {
+		'genres': genres,
+		'game_modes': list(game_modes),
+		'platforms': list(platforms),
+		'age_ranges': list(age_ranges),
+		'difficulties': list(difficulties)
+	}
+	# Write to file
+	helpers.write_json_to_file('data/game_properties.json', game_properties)
+
+
 # Generate facts from game list
 if __name__ == "__main__":
-	gen_facts()
-	# fix_genres()
+	# gen_facts()
+	get_properties()

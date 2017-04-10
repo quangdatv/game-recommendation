@@ -1,25 +1,55 @@
 import clips
-import json
 
 # Get all games
 def get_all_games():
-	return read_json_from_file('data/game_list.json')
+	# Load template
+	clips.Clear()
+	clips.Load("clips/templates.clp")
+	clips.Load("clips/games.clp")
+	clips.Reset()
 
-# Read json from file
-def read_json_from_file(file_name):
-	with open(file_name) as file:
-		return json.load(file)
-	return {}
+	# Run clips
+	clips.Run()
+
+	# load game from facts
+	games = []
+	facts = clips.FactList()
+	for fact in facts:
+		if fact.Relation != 'game':
+			continue
+		game = {
+			'id': fact.Slots['id'], 'name': fact.Slots['name'],
+			'description': fact.Slots['description'],
+			'genre': list(fact.Slots['genre']),
+			'platform': list(fact.Slots['platform']),
+			'age-range': fact.Slots['age-range'],
+			'game-mode': fact.Slots['game-mode'],
+			'release-date': fact.Slots['release-date'],
+			'length': fact.Slots['length'],
+			'difficulty': fact.Slots['difficulty'],
+			'image': fact.Slots['image']
+		}
+		games.append(game)
+		# print fact.Slots['id'], list(fact.Slots['genre'])
+	return games
 
 
-def get_games(user_id):
+# Get recommended games from like list
+def get_recommended_games(like_list):
 	# Get all games
 	games = get_all_games()
-	# TODO: Get genres user liked and disliked
+	# Get genres user liked and disliked
 	genre_score = {}
-	genre_score['sports'] = 1
-	genre_score['role-playing'] = 4
-	genre_score['visual-novel'] = -3
+	# genre_score['sports'] = 4
+	# genre_score['role-playing'] = -4
+	# genre_score['visual-novel'] = -3
+	for like in like_list:
+		is_liked = 1 if like.is_liked else -1
+		for genre in game[like.game_id-1]['genres']:
+			if genre_score.get(genre) is None:
+				genre_score[genre] = is_liked
+			else:
+				genre_score[genre] += is_liked
 	# normalize genres
 	max_value = 1
 	min_value = 0
@@ -27,27 +57,28 @@ def get_games(user_id):
 		max_value = max(max_value, value)
 		min_value = min(min_value, value)
 	for genre in genre_score.iterkeys():
-		genre_score[genre] = (genre_score[genre] - min_value) / (max_value - min_value)
+		genre_score[genre] = float(genre_score[genre] - min_value) / (max_value - min_value)
 	# calculate jaccard similarity
 	for game in games:
-		sum_min = 0
-		sum_max = 0
+		sum_min = 0.0
+		sum_max = 0.0
 		for genre, tk in genre_score.iteritems():
-			sk = 1 if genre in game['genres'] else 0
+			sk = 1.0 if genre in game['genre'] else 0.0
 			sum_min += min(sk, tk)
 			sum_max += max(sk, tk)
-		game['score'] = sum_min / sum_max if sum_max > 0 else 0
+		game['score'] = sum_min / sum_max if sum_max > 0.0 else 0.0
 	# sort game by similarity
 	sorted_games = sorted(games, key=lambda x: -x['score'])[:20]
 	# Debug
-	# for game in sorted_gamess:
-	# 	print game['title'], game['genres'], game['score']
+	for game in sorted_games:
+		print game['name'], game['genre'], game['score']
 	return sorted_games
 
 
 # Generate facts from game list
 if __name__ == "__main__":
-	get_games(6)
+	get_games(7)
+	# get_all_games()
 
 
 

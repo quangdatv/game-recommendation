@@ -1,0 +1,42 @@
+{
+  "age_ranges": [
+    "E10+",
+    "None",
+    "M",
+    "E",
+    "T"
+  ],
+  "game_modes": [
+    "single-player",
+    "multiplayer"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "role-playing",
+    "first-person-shooter",
+    "simulation",
+    "survival",
+    "puzzle",
+    "platform",
+    "racing",
+    "horror"
+  ],
+  "difficulties": [
+    "Not available",
+    "Tough",
+    "Simple",
+    "Just Right",
+    "Easy",
+    "Unforgiving"
+  ],
+  "platforms": [
+    "OSX",
+    "iOS",
+    "XboxOne",
+    "PC",
+    "Linux",
+    "Android",
+    "PS4"
+  ]
+}
