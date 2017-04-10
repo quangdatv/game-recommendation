@@ -53,7 +53,7 @@ def gen_facts():
 			release_date=game.get('release_date') or 'Not available',
 			length=game.get('length') or 'Not available',
 			difficulty=game.get('difficulty') or 'Not available',
-			cover=game.get('cover') or 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/WPVG_icon_2016.svg/160px-WPVG_icon_2016.svg.png'
+			cover=game.get('cover') or 'https://yt3.ggpht.com/2tDwwVVEuy0ja92htLiC-JZdfqUB1ogR--jjSph3Ybk068mSQkoOhG9YdvYvgDrWyjCIvi9JOubtFIyi=s900-nd-c-c0xffffffff-rj-k-no'
 		))
 		file.write('\n')
 	# Close file
