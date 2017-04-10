@@ -45,6 +45,7 @@ def get_recommended_games(like_list):
 	# genre_score['visual-novel'] = -3
 	for like in like_list:
 		is_liked = 1 if like.is_liked else -1
+		games[like.game_id-1]['score'] = -1.0
 		for genre in games[like.game_id-1]['genre'] or []:
 			if genre_score.get(genre) is None:
 				genre_score[genre] = is_liked
@@ -60,6 +61,9 @@ def get_recommended_games(like_list):
 		genre_score[genre] = float(genre_score[genre] - min_value) / (max_value - min_value)
 	# calculate jaccard similarity
 	for game in games:
+		# Skip game that has been already liked
+		if game.get('score'):
+			continue
 		sum_min = 0.0
 		sum_max = 0.0
 		for genre, tk in genre_score.iteritems():
@@ -70,8 +74,8 @@ def get_recommended_games(like_list):
 	# sort game by similarity
 	sorted_games = sorted(games, key=lambda x: -x['score'])[:20]
 	# Debug
-	for game in sorted_games:
-		print game['name'], game['genre'], game['score']
+	# for game in sorted_games:
+	# 	print game['name'], game['genre'], game['score']
 	return sorted_games
 
 
