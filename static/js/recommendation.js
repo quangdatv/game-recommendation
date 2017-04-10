@@ -85,11 +85,16 @@ function openGameDetail(game) {
   // empty content and add the list detail
   var $cardDetailContentList = $modal.find(".card-detail-content-list");
   $cardDetailContentList.empty();
-  var detailKeys = ["publisher", "platforms", "price", "rating"];
+  var detailKeys = ["publisher", "platform", "age-range", "game-mode", "release-date", "length", "difficulty"];
   detailKeys.forEach(function(key) {
     var value = game[key] || "";
     if ($.isArray(value)) {
       value = value.join(", ");
+    }
+    console.log(value);
+    if (!value || value.length == 0) return;
+    if (key === "release-date") {
+      value = new Date(value).toDateString();
     }
     $cardDetailContentList.append(
       "<div class='card-detail-content-item'>" +
