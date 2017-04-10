@@ -26,15 +26,30 @@
           <div> <h2 class="logo-text"> Game Expert</h2></div>
         </div>
         <div class="right item">
-          <a href="/recommend.html/"><button class="ui inverted basic button">Recommendation</button> </a>
-          <a href="/new.html/"><button class="ui inverted basic button">New Game</button> </a>
+          <a href="/recommendation/"><button class="ui inverted basic button">Recommendation</button> </a>
+          {% if not user.is_authenticated %}
+            <a href="/login/"><button class="ui inverted basic button">Login</button> </a>
+            <a href="/signup/"><button class="ui inverted basic button">Signup</button> </a>
+          {% endif %}
+
+          {% if user.is_authenticated %}
+            <div class="ui right dropdown item">
+              <span style="color: white"> {{ user.username }} </span>
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                <div class="item">Liked Games</div>
+                <a href="/logout/" class="item">Logout</a>
+              </div>
+            </div>
+          {% endif %}
+
         </div>
       </div>
     </div>
     <div class="ui text container">
       <div class="header-big"> Welcome to GAME'S WORLD </div>
       <div class="header-small"> Explore popular games out there </div>
-      <div class="go-button"> <a href="/recommend.html/"><button class="huge ui inverted button">Let's Go</button> </a> </div>
+      <div class="go-button"> <a href="/recommendation/"><button class="huge ui inverted button">Let's Go</button> </a> </div>
     </div>
   </div>
 </body>
@@ -54,6 +69,7 @@
       // run every 7s
       setInterval('cycleImages()', 7000);
   });
+  $('.ui.dropdown').dropdown();
 </script>
 
 </html>

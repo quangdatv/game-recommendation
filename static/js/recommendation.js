@@ -1,6 +1,7 @@
 // variable indicate we are fetching data from server
 var isFetching = false;
 var currentOpenedGame = null;
+var currentOpenedGameExtra = {like_count: 10, dislike_count: 5};
 
 $(window).load(function(){
   $(".option-header").on("click", function() {
@@ -28,6 +29,7 @@ $(window).load(function(){
   });
 
   $("#review-form").submit(onReviewFormSubmit);
+  $('.ui.modal').modal();
 });
 
 function handleItemSelected() {
@@ -81,7 +83,7 @@ function openGameDetail(game) {
   // empty content and add the list detail
   var $cardDetailContentList = $modal.find(".card-detail-content-list");
   $cardDetailContentList.empty();
-  var detailKeys = ["publisher", "platforms", "price"];
+  var detailKeys = ["publisher", "platforms", "price", "rating"];
   detailKeys.forEach(function(key) {
     var value = game[key] || "";
     if ($.isArray(value)) {
@@ -94,10 +96,9 @@ function openGameDetail(game) {
       "</div>"
     )
   });
-  // show game star
-  var $rating = $modal.find(".card-detail-rating");
-  $rating.empty();
-  $rating.append(generateRating(game.rating || 0, "card-detail-rating-star rating-star"));
+  // status
+  // TODO: get real data + fetching data here
+  updateGameDetailStatus();
   // comments
   var $comments = $modal.find(".card-detail-comments")
   $comments.find(".comment").remove();
@@ -118,8 +119,8 @@ function updateGameList(gameList) {
       .attr("src", game.image[0])
     $item.find(".card-name")
       .html(game.name);
-    $item.find(".card-rating")
-      .append(generateRating(game.rating || 0, "rating-star"));
+    $item.find(".card-like-count").text(10);
+    $item.find(".card-dislike-count").text(5);
     $item.on("click", function() {
       openGameDetail(game);
     });
@@ -133,33 +134,17 @@ function handleSearch() {
   }
   var data = collectFormData();
   startFetching();
-  $.getJSON("https://jsonplaceholder.typicode.com/posts", data)
+  $.post("/api/search", data)
     .done(function(response) {
       // TODO: handle real data here
-      updateGameList(mockData);
     })
     .fail(function(response) {
       $("#main-container-warning").transition('scale');
     })
     .always(function() {
+      updateGameList(mockData);
       finishFetching();
     });      
-}
-
-function generateRating(rating, classes) {
-  var result = "";
-  var flooredRating = Math.floor(rating);
-  for (var i = flooredRating; i > 0; i--) {
-    result += '<i class="star icon ' + classes + '"></i>';
-  }
-  let remainRating = rating - flooredRating;
-  if (remainRating > 0.25 && remainRating < 0.75) {
-    result += '<i class="half empty star icon ' + classes + '"></i>';
-  }
-  if (remainRating >= 0.75) {
-    result += '<i class="star icon ' + classes + '"></i>';
-  }
-  return "<span>" + result + "</span>";
 }
 
 function generateComment(review) {
@@ -181,7 +166,6 @@ function generateComment(review) {
           <span class="date">Today at 5:42PM</span>
         </div>
         <br/>
-        <div class="metadata">` + generateRating(review.stars, "rating-star") + `</div>
         <div class="text">` + review.comment + `</div>
       </div>
     </div>`;
@@ -197,50 +181,68 @@ function toggleReviewForm() {
   }
 }
 
-function reviewStarClicked(rating) {
-  $(".review-stars").find(".review-star").each(function(index, star) {
-    if (index <= rating - 1) {
-      $(star).removeClass("empty");
-    } else {
-      $(star).addClass("empty");
-    }
-  });
-  $("#review-form").find("input[name='review-stars']").val(rating);
-}
-
 function onReviewFormSubmit(event) {
   event.preventDefault();
   var $form = $("#review-form");
-  var reviewName = $form.find("input[name='review-name']").val();
   var reviewComment = $form.find("textarea[name='review-comment']").val();
-  var reviewRating = parseInt($form.find("input[name='review-stars']").val());
   reviewComment = reviewComment.trim();
-  reviewName = reviewName.trim();
-  var errors = [];
   if (reviewComment.length == 0) {
-    errors.push("<div> Name should not be empty. </div>");
-  }
-  if (reviewComment.length == 0) {
-    errors.push("<div> Comment should not be empty. </div>");
-  }
-  if (errors.length > 0) {
-    $form.find(".review-errors").show();
-    $form.find(".review-errors").empty().append("<span>" + errors.join("") +  "</span>");
     return false;
-  } else {
-    $form.find(".review-errors").hide();
-  }
+  } 
   // TODO: submit form here
   return true;
 }
 
 function resetReviewForm() {
-  reviewStarClicked(5);
   var $form = $("#review-form");
-  $form.find("input[name='review-name']").val("");
   $form.find("textarea[name='review-comment']").val("");
-  $form.find("input[name='review-stars']").val(5);
-  $form.find(".review-errors").hide();
+}
+
+function likeButtonClicked() {
+  if (!currentOpenedGameExtra) return;
+  // is_like = true / false / undefined corresponding to like / dislike / none
+  var likeStatus = currentOpenedGameExtra.is_liked;
+  if (likeStatus === true) {
+    // TODO: call unlike-api here
+    currentOpenedGameExtra.is_liked = null;
+    currentOpenedGameExtra.like_count -= 1;
+  } else {
+    // TODO: call like-api here
+    currentOpenedGameExtra.is_liked = true;
+    currentOpenedGameExtra.like_count += 1;
+    if (likeStatus === false) currentOpenedGameExtra.dislike_count -= 1;
+  }
+  updateGameDetailStatus();
+}
+
+function dislikeButtonClicked() {
+  if (!currentOpenedGameExtra) return;
+  var likeStatus = currentOpenedGameExtra.is_liked;
+  if (likeStatus === false) {
+    // TODO: call undislike-api here
+    currentOpenedGameExtra.is_liked = null;
+    currentOpenedGameExtra.dislike_count -= 1;
+  } else {
+    // TODO: call dislike-api here
+    currentOpenedGameExtra.is_liked = false
+    currentOpenedGameExtra.dislike_count += 1;
+    if (likeStatus === true) currentOpenedGameExtra.like_count -= 1
+  }
+  updateGameDetailStatus();
+}
+
+function updateGameDetailStatus() {
+  $("#card-detail-container .card-detail-like-count").text(currentOpenedGameExtra.like_count);
+  $("#card-detail-container .card-detail-dislike-count").text(currentOpenedGameExtra.dislike_count);
+  $("#card-detail-container .like-button").removeClass("active").addClass("outline");
+  $("#card-detail-container .dislike-button").removeClass("active").addClass("outline");
+  var likeStatus = currentOpenedGameExtra.is_liked
+  if (likeStatus === undefined || likeStatus === null) return;
+  if (likeStatus) {
+    $("#card-detail-container .like-button").addClass("active").removeClass("outline");
+  } else {
+    $("#card-detail-container .dislike-button").addClass("active").removeClass("outline");
+  }
 }
 
 var mockData = [{
@@ -317,9 +319,11 @@ var mockData = [{
   platforms: ["iOS, Android"]
 }];
 
-var mockComment = [{"comment": "This game sucks", "stars": 1, "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu", "stars": 4, "author": "Messi"},
-                  {"comment": "This game sucks", "stars": 1, "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu", "stars": 4, "author": "Messi"},
-                  {"comment": "This game sucks", "stars": 1, "author": "Cristiano Ronaldo"},
-                  {"comment": "I love you chiu chiu", "stars": 4, "author": "Messi"}];
+var mockComment = [{"comment": "This game sucks", "author": "Cristiano Ronaldo"},
+                  {"comment": "I love you chiu chiu",  "author": "Messi"},
+                  {"comment": "This game sucks",  "author": "Cristiano Ronaldo"},
+                  {"comment": "I love you chiu chiu",  "author": "Messi"},
+                  {"comment": "This game sucks", "author": "Cristiano Ronaldo"},
+                  {"comment": "I love you chiu chiu", "author": "Messi"},
+                  {"comment": "This game sucks", "author": "Cristiano Ronaldo"},
+                  {"comment": "I love you chiu chiu", "author": "Messi"}];

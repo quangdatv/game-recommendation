@@ -1,0 +1,23 @@
+.main-container {
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+body {
+  background-color: #DADADA;
+}
+
+body > .grid {
+  height: 100%;
+}
+
+.column {
+  max-width: 450px;
+}
+
+.error-message {
+  color: red;
+  text-align: left;
+  padding: 10px 10px;
+  line-height: 2;
+}

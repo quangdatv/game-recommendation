@@ -2,7 +2,7 @@
 {% load staticfiles %}
 
 {% block css-files %}
-  <link rel="stylesheet" href="{% static "css/recommend.css" %}"/>
+  <link rel="stylesheet" href="{% static "css/recommendation.css" %}"/>
 {% endblock %}
 
 {% block content %}
@@ -21,7 +21,7 @@
         <div class="option-item" value="..."> ... </div>
       </div>
     </div>
-    <div class="option-container" multiple-values name="mode">
+    <div class="option-container" multiple-values name="game-mode">
       <div class="option-header"> Mode </div>
       <div class="option-body" style="display: none">
         <div class="option-item" value="singleplayer"> Singleplayer </div>
@@ -42,7 +42,7 @@
     <div class="option-container" name="age-range">
       <div class="option-header"> Age Range </div>
       <div class="option-body" style="display: none">
-        <div class="option-item" value="ec"> early childhood </div>
+        <div class="option-item" value="e"> early childhood </div>
         <div class="option-item" value="eo"> everyone </div>
         <div class="option-item" value="eo10"> everyone 10+  </div>
         <div class="option-item" value="t"> Teen</div>
@@ -64,7 +64,7 @@
   <div class="main-container-wrapper">
     <div id="main-container">
 
-      <div class="active ui text loader" id="main-container-loader" style="display: none">Loading</div>      
+      <div class="active ui text loader" id="main-container-loader" style="display: none">Loading</div>
 
       <div class="ui warning message" id="main-container-warning" style="display: none">
         <i class="close icon"></i>
@@ -84,45 +84,28 @@
       </div>
       <div class="card-detail-extra">
         <h2 class="card-detail-name"> </h2>
-        <div class="card-detail-rating">
-        </div>
         <section class="card-detail-content-list">
+        </section>
+        <section class="card-detail-status">
+          <i class="thumbs outline up icon like-button" onClick="likeButtonClicked()"></i>
+          <span class="card-detail-like-count"> </span>
+          <i class="thumbs outline down icon dislike-button" onClick="dislikeButtonClicked()"></i>
+          <span class="card-detail-dislike-count"> </span>
         </section>
         <section class="ui comments card-detail-comments">
           <div class="ui dividing header card-detail-comment-header">
             <h3 class="">Comments</h3>
             <i class="edit icon" onClick="toggleReviewForm()" style="cursor: pointer"></i>
           </div>
-          <form id="review-form" class="ui form error" style="display: none">
+          <form id="review-form" class="ui form error" style="display: none"> {% csrf_token %}
             <div class="field">
-              <div class="two fields">
-                <div class="field">
-                  <input type="text" name="review-name" placeholder="Your Name" required>
-                </div>
-                <div class="field review-stars">
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(1)"></i>
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(2)"></i>
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(3)"></i>
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(4)"></i>
-                  <i class="star icon link review-star rating-star" onclick="reviewStarClicked(5)"></i>
-                </div>
-              </div>
-            </div>
-
-            <!-- Comment -->
-            <div class="field">
-              <input type="text" name="review-stars" style="display:none" value="5">
               <textarea name="review-comment" rows="3" placeholder="Your comment here ..." required></textarea>
             </div>
-
-            <!-- Errors -->
-            <div class="ui error message review-errors" style="display:none"></div>
-            <!-- Submit button -->
             <div class="inline fields">
               <button class="ui submit teal button" type="submit"><i class="icon edit"></i> Submit</button>
             </div>
           </form>
-        </section> 
+        </section>
       </div>
     </div>
   </div>
@@ -131,11 +114,24 @@
       <img class="card-image" src=""/>
     </div>
     <div class="card-content">
-      <div class="card-rating"> </div>
       <div class="card-name"> Game </div>
+      <div class="card-status">
+        <i class="thumbs outline up icon"></i>
+        <span class="card-like-count"> </span>
+        <i class="thumbs outline down icon"></i>
+        <span class="card-dislike-count"> </span>
+      </div>
     </div>
   </div>
 {% endblock %}
 {% block js-files %}
-  <script src="{% static "js/recommend.js" %}"> </script>
+  <script>
+    var isLogin = false;
+  </script>
+  {% if user.is_authenticated %}
+    <script>
+      isLogin = true
+    </script>
+  {% endif %}
+  <script src="{% static "js/recommendation.js" %}"> </script>
 {% endblock %}
