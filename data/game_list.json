@@ -41,8 +41,8 @@
     ],
     "length": "34.9",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 29.99,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -117,10 +117,9 @@
       "OSX",
       "Linux"
     ],
-    "length": "Rea",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 2.46,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -143,8 +142,8 @@
     ],
     "length": "17.7",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 14.87,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -238,8 +237,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 22.21,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -402,8 +401,8 @@
     ],
     "length": "29.5",
     "esrb": "M",
-    "price_new": 17.3,
     "fetch_status": "OK",
+    "price_new": 17.3,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -432,8 +431,8 @@
     ],
     "length": "60",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 4.43,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -456,8 +455,8 @@
     ],
     "length": "29.1",
     "esrb": "E10+",
-    "price_new": 0.75,
     "fetch_status": "OK",
+    "price_new": 0.75,
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -546,8 +545,8 @@
     ],
     "length": "33.8",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 14.86,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -571,8 +570,8 @@
     ],
     "length": "70",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 10.78,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -688,7 +687,6 @@
     "platforms": [
       "PC"
     ],
-    "length": "Rea",
     "esrb": "T",
     "fetch_status": "OK",
     "difficulty": "Just Right",
@@ -738,8 +736,8 @@
     ],
     "length": "57.9",
     "esrb": "E10+",
-    "price_new": 5.88,
     "fetch_status": "OK",
+    "price_new": 5.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -765,8 +763,8 @@
     ],
     "length": "80+",
     "esrb": "M",
-    "price_new": 42.2,
     "fetch_status": "OK",
+    "price_new": 42.2,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -786,7 +784,6 @@
       "PC",
       "iOS"
     ],
-    "length": "Card Wars - Adventur",
     "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
@@ -815,8 +812,8 @@
     ],
     "length": "75",
     "esrb": "M",
-    "price_new": 13.41,
     "fetch_status": "OK",
+    "price_new": 13.41,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -840,8 +837,8 @@
     ],
     "length": "35.8",
     "esrb": "M",
-    "price_new": 11.99,
     "fetch_status": "OK",
+    "price_new": 11.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -868,8 +865,8 @@
     ],
     "length": "80+",
     "esrb": "M",
-    "price_new": 10.76,
     "fetch_status": "OK",
+    "price_new": 10.76,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -896,8 +893,8 @@
     ],
     "length": "65",
     "esrb": "E",
-    "price_new": 11.89,
     "fetch_status": "OK",
+    "price_new": 11.89,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -919,8 +916,8 @@
     ],
     "length": "40",
     "esrb": "T",
-    "price_new": 28.0,
     "fetch_status": "OK",
+    "price_new": 28.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -943,7 +940,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "Blades of TimeIn Blades of Time, players don the persona of the gorgeous gunsword-wielding treasure hunter, Ayumi. Blessed with ",
     "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
@@ -969,8 +965,8 @@
     ],
     "length": "28.4",
     "esrb": "T",
-    "price_new": 20.9,
     "fetch_status": "OK",
+    "price_new": 20.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -990,8 +986,8 @@
       "PS4",
       "XboxOne"
     ],
-    "price_new": 69.96,
     "fetch_status": "OK",
+    "price_new": 69.96,
     "modes": [
       "single-player",
       "multiplayer"
@@ -1015,8 +1011,8 @@
     ],
     "length": "12",
     "esrb": "T",
-    "price_new": 52.99,
     "fetch_status": "OK",
+    "price_new": 52.99,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -1091,8 +1087,8 @@
     ],
     "length": "8",
     "esrb": "M",
-    "price_new": 40.99,
     "fetch_status": "OK",
+    "price_new": 40.99,
     "difficulty": "Unforgiving",
     "modes": [
       "single-player",
@@ -1118,8 +1114,8 @@
     ],
     "length": "2.1",
     "esrb": "T",
-    "price_new": 17.99,
     "fetch_status": "OK",
+    "price_new": 17.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -1143,8 +1139,8 @@
     ],
     "length": "40",
     "esrb": "T",
-    "price_new": 64.9,
     "fetch_status": "OK",
+    "price_new": 64.9,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -1168,8 +1164,8 @@
     ],
     "length": "64.2",
     "esrb": "E10+",
-    "price_new": 10.0,
     "fetch_status": "OK",
+    "price_new": 10.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -1192,10 +1188,9 @@
       "Android",
       "iOS"
     ],
-    "length": "Arvale 2: Ocean o",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 14.45,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -1220,8 +1215,8 @@
     ],
     "length": "20.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.23,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -1299,7 +1294,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "Blades of TimeIn Blades of Time, players don the persona of the gorgeous gunsword-wielding treasure hunter, Ayumi. Blessed with ",
     "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
@@ -1376,8 +1370,8 @@
     ],
     "length": "12",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 8.08,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -1407,8 +1401,8 @@
     ],
     "length": "75",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 10.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -1432,8 +1426,8 @@
     ],
     "length": "65.5",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 16.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -1563,7 +1557,6 @@
       "Android",
       "iOS"
     ],
-    "length": "Card Wars - Adventur",
     "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
@@ -1634,8 +1627,8 @@
     ],
     "length": "65",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 7.2,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -1681,8 +1674,8 @@
     ],
     "length": "80+",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 1.99,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -1725,7 +1718,6 @@
       "PS4",
       "XboxOne"
     ],
-    "length": "Rea",
     "fetch_status": "OK",
     "modes": [
       "multiplayer"
@@ -1748,8 +1740,8 @@
     ],
     "length": "11.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 19.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -1772,8 +1764,8 @@
     ],
     "length": "12",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 55.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -1797,8 +1789,8 @@
     ],
     "length": "79",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.0,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -1852,8 +1844,8 @@
     ],
     "length": "40",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 15.44,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -1894,8 +1886,8 @@
       "PC",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player",
       "multiplayer"
@@ -1943,10 +1935,9 @@
       "PC",
       "Linux"
     ],
-    "length": "Rea",
     "esrb": "M",
-    "price_new": 19.95,
     "fetch_status": "OK",
+    "price_new": 19.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -2027,8 +2018,8 @@
     ],
     "length": "20",
     "esrb": "M",
-    "price_new": 13.32,
     "fetch_status": "OK",
+    "price_new": 13.32,
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -2053,8 +2044,8 @@
     ],
     "length": "21.6",
     "esrb": "T",
-    "price_new": 13.49,
     "fetch_status": "OK",
+    "price_new": 13.49,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -2121,8 +2112,8 @@
     ],
     "length": "20.7",
     "esrb": "T",
-    "price_new": 53.63,
     "fetch_status": "OK",
+    "price_new": 53.63,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -2146,8 +2137,8 @@
     ],
     "length": "55.7",
     "esrb": "T",
-    "price_new": 9.68,
     "fetch_status": "OK",
+    "price_new": 9.68,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -2214,8 +2205,8 @@
     ],
     "length": "45.9",
     "esrb": "T",
-    "price_new": 13.99,
     "fetch_status": "OK",
+    "price_new": 13.99,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -2286,8 +2277,8 @@
     ],
     "length": "8.1",
     "esrb": "T",
-    "price_new": 4.2,
     "fetch_status": "OK",
+    "price_new": 4.2,
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -2329,10 +2320,9 @@
       "PC",
       "OSX"
     ],
-    "length": "Rea",
     "esrb": "M",
-    "price_new": 32.95,
     "fetch_status": "OK",
+    "price_new": 32.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -2380,8 +2370,8 @@
     ],
     "length": "73.9",
     "esrb": "M",
-    "price_new": 2.0,
     "fetch_status": "OK",
+    "price_new": 2.0,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -2404,8 +2394,8 @@
       "OSX"
     ],
     "length": "12",
-    "price_new": 29.99,
     "fetch_status": "OK",
+    "price_new": 29.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -2493,7 +2483,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "Rea",
     "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
@@ -2544,8 +2533,8 @@
     ],
     "length": "8.8",
     "esrb": "M",
-    "price_new": 4.0,
     "fetch_status": "OK",
+    "price_new": 4.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -2596,8 +2585,8 @@
     ],
     "length": "64",
     "esrb": "T",
-    "price_new": 13.93,
     "fetch_status": "OK",
+    "price_new": 13.93,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -2620,8 +2609,8 @@
     ],
     "length": "15",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 26.88,
+    "fetch_status": "OK",
     "difficulty": "Simple",
     "modes": [
       "single-player"
@@ -2642,10 +2631,9 @@
       "PC",
       "OSX"
     ],
-    "length": "Rea",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 25.0,
+    "fetch_status": "OK",
     "difficulty": "Unforgiving",
     "modes": [
       "single-player"
@@ -2697,8 +2685,8 @@
     ],
     "length": "27.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 10.57,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -2722,8 +2710,8 @@
     ],
     "length": "14.7",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 39.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -2754,8 +2742,8 @@
     ],
     "length": "42.6",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 15.85,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -2803,8 +2791,8 @@
     ],
     "length": "49.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 15.65,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -2827,8 +2815,8 @@
     ],
     "length": "9.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 16.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -2874,8 +2862,8 @@
     ],
     "length": "20",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 54.98,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -2900,8 +2888,8 @@
     ],
     "length": "10.2",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 19.99,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -2924,8 +2912,8 @@
     ],
     "length": "5.5",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 22.75,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -3016,8 +3004,8 @@
     ],
     "length": "8",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 37.8,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -3171,8 +3159,8 @@
     ],
     "length": "60",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 47.36,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -3200,8 +3188,8 @@
     ],
     "length": "1",
     "esrb": "M",
-    "price_new": 2.95,
     "fetch_status": "OK",
+    "price_new": 2.95,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -3323,8 +3311,8 @@
     ],
     "length": "11",
     "esrb": "T",
-    "price_new": 48.99,
     "fetch_status": "OK",
+    "price_new": 48.99,
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -3366,8 +3354,8 @@
     ],
     "length": "10.1",
     "esrb": "E",
-    "price_new": 22.0,
     "fetch_status": "OK",
+    "price_new": 22.0,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -3393,8 +3381,8 @@
     ],
     "length": "20.8",
     "esrb": "E10+",
-    "price_new": 29.97,
     "fetch_status": "OK",
+    "price_new": 29.97,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -3486,8 +3474,8 @@
     ],
     "length": "12",
     "esrb": "M",
-    "price_new": 12.94,
     "fetch_status": "OK",
+    "price_new": 12.94,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -3546,8 +3534,8 @@
     ],
     "length": "22.3",
     "esrb": "E10+",
-    "price_new": 8.4,
     "fetch_status": "OK",
+    "price_new": 8.4,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -3592,8 +3580,8 @@
     ],
     "length": "49.8",
     "esrb": "E",
-    "price_new": 14.0,
     "fetch_status": "OK",
+    "price_new": 14.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -3734,8 +3722,8 @@
     ],
     "length": "9",
     "esrb": "M",
-    "price_new": 2.58,
     "fetch_status": "OK",
+    "price_new": 2.58,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -3760,8 +3748,8 @@
     ],
     "length": "40",
     "esrb": "T",
-    "price_new": 14.05,
     "fetch_status": "OK",
+    "price_new": 14.05,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -3810,8 +3798,8 @@
     ],
     "length": "17.3",
     "esrb": "E",
-    "price_new": 39.99,
     "fetch_status": "OK",
+    "price_new": 39.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -3837,8 +3825,8 @@
     ],
     "length": "4.9",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 13.99,
+    "fetch_status": "OK",
     "difficulty": "Simple",
     "modes": [
       "single-player"
@@ -3858,8 +3846,8 @@
     ],
     "length": "5.8",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 4.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -3957,8 +3945,8 @@
     ],
     "length": "36.5",
     "esrb": "M",
-    "price_new": 9.03,
     "fetch_status": "OK",
+    "price_new": 9.03,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -4073,8 +4061,8 @@
     ],
     "length": "28.1",
     "esrb": "M",
-    "price_new": 5.5,
     "fetch_status": "OK",
+    "price_new": 5.5,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -4142,8 +4130,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 14.5,
     "fetch_status": "OK",
+    "price_new": 14.5,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -4208,8 +4196,8 @@
     ],
     "length": "65.3",
     "esrb": "T",
-    "price_new": 39.96,
     "fetch_status": "OK",
+    "price_new": 39.96,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -4234,8 +4222,8 @@
     ],
     "length": "10.7",
     "esrb": "M",
-    "price_new": 5.58,
     "fetch_status": "OK",
+    "price_new": 5.58,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -4257,8 +4245,8 @@
     ],
     "length": "44.2",
     "esrb": "T",
-    "price_new": 12.19,
     "fetch_status": "OK",
+    "price_new": 12.19,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -4359,8 +4347,8 @@
     ],
     "length": "28.6",
     "esrb": "M",
-    "price_new": 25.57,
     "fetch_status": "OK",
+    "price_new": 25.57,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -4456,10 +4444,9 @@
       "PS4",
       "XboxOne"
     ],
-    "length": "Blades of TimeIn Blades of Time, players don the persona of the gorgeous gunsword-wielding treasure hunter, Ayumi. Blessed with ",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 29.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -4479,7 +4466,6 @@
       "PS4",
       "XboxOne"
     ],
-    "length": "Drakensang: The River of TimeStarting in Aventuria's Middenrealm in the city of Ferdok, the story of the games takes players down the Great Riv",
     "fetch_status": "OK",
     "modes": []
   },
@@ -4526,8 +4512,8 @@
     ],
     "length": "19.4",
     "esrb": "M",
-    "price_new": 21.83,
     "fetch_status": "OK",
+    "price_new": 21.83,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -4551,7 +4537,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "Card Wars - Adventur",
     "fetch_status": "OK",
     "modes": [
       "single-player"
@@ -4574,8 +4559,8 @@
     ],
     "length": "18.1",
     "esrb": "T",
-    "price_new": 24.35,
     "fetch_status": "OK",
+    "price_new": 24.35,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -4600,8 +4585,8 @@
     ],
     "length": "21.3",
     "esrb": "T",
-    "price_new": 13.07,
     "fetch_status": "OK",
+    "price_new": 13.07,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -4666,8 +4651,8 @@
     ],
     "length": "12.5",
     "esrb": "M",
-    "price_new": 17.79,
     "fetch_status": "OK",
+    "price_new": 17.79,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -4711,8 +4696,8 @@
     ],
     "length": "17.9",
     "esrb": "M",
-    "price_new": 12.3,
     "fetch_status": "OK",
+    "price_new": 12.3,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -4820,8 +4805,8 @@
     ],
     "length": "14.9",
     "esrb": "T",
-    "price_new": 15.45,
     "fetch_status": "OK",
+    "price_new": 15.45,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -4848,8 +4833,8 @@
     ],
     "length": "2.9",
     "esrb": "E",
-    "price_new": 17.5,
     "fetch_status": "OK",
+    "price_new": 17.5,
     "difficulty": "Simple",
     "modes": [
       "single-player"
@@ -4875,8 +4860,8 @@
     ],
     "length": "37",
     "esrb": "M",
-    "price_new": 19.99,
     "fetch_status": "OK",
+    "price_new": 19.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -4925,8 +4910,8 @@
     ],
     "length": "17.3",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 22.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -4950,8 +4935,8 @@
     ],
     "length": "67.5",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 114.69,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -4993,8 +4978,8 @@
     ],
     "length": "69.8",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 6.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -5017,8 +5002,8 @@
     ],
     "length": "36.1",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 9.21,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -5163,8 +5148,8 @@
     ],
     "length": "18.9",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 14.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -5185,8 +5170,8 @@
       "PS4",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 29.96,
+    "fetch_status": "OK",
     "modes": [
       "single-player",
       "multiplayer"
@@ -5210,8 +5195,8 @@
     ],
     "length": "18.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 0.96,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -5235,8 +5220,8 @@
     ],
     "length": "66.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 19.77,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -5260,8 +5245,8 @@
     ],
     "length": "25.5",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 20.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -5305,8 +5290,8 @@
     ],
     "length": "24.9",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 19.13,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -5389,8 +5374,8 @@
     ],
     "length": "12",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 11.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -5420,8 +5405,8 @@
     ],
     "length": "37.1",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 5.9,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -5469,8 +5454,8 @@
     ],
     "length": "39.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 29.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -5538,7 +5523,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "Rea",
     "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
@@ -5717,8 +5701,8 @@
     ],
     "length": "7",
     "esrb": "E",
-    "price_new": 1.4,
     "fetch_status": "OK",
+    "price_new": 1.4,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -5766,8 +5750,8 @@
     ],
     "length": "10",
     "esrb": "E",
-    "price_new": 21.9,
     "fetch_status": "OK",
+    "price_new": 21.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -5864,7 +5848,6 @@
       "Android",
       "iOS"
     ],
-    "length": "Blades of TimeIn Blades of Time, players don the persona of the gorgeous gunsword-wielding treasure hunter, Ayumi. Blessed with ",
     "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
@@ -5931,8 +5914,8 @@
       "PS4",
       "XboxOne"
     ],
-    "price_new": 59.99,
     "fetch_status": "OK",
+    "price_new": 59.99,
     "description": "Dirt 4 is an upcoming rally racing video game developed by Codemasters. It is the twelfth game in the Colin McRae Rally series and the sixth title to carry the Dirt name. The game is scheduled to launch on PlayStation 4, Windows, and Xbox One in June 2017."
   },
   {
@@ -5952,8 +5935,8 @@
     ],
     "length": "32.4",
     "esrb": "T",
-    "price_new": 39.99,
     "fetch_status": "OK",
+    "price_new": 39.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -5977,8 +5960,8 @@
     ],
     "length": "44.4",
     "esrb": "E10+",
-    "price_new": 2.0,
     "fetch_status": "OK",
+    "price_new": 2.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -6003,8 +5986,8 @@
       "Linux"
     ],
     "length": "17.5",
-    "price_new": 15.0,
     "fetch_status": "OK",
+    "price_new": 15.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -6029,8 +6012,8 @@
     ],
     "length": "61.9",
     "esrb": "E10+",
-    "price_new": 4.38,
     "fetch_status": "OK",
+    "price_new": 4.38,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -6057,8 +6040,8 @@
     ],
     "length": "71.7",
     "esrb": "E",
-    "price_new": 3.07,
     "fetch_status": "OK",
+    "price_new": 3.07,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -6085,8 +6068,8 @@
     ],
     "length": "67.5",
     "esrb": "E",
-    "price_new": 5.0,
     "fetch_status": "OK",
+    "price_new": 5.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -6140,8 +6123,8 @@
     ],
     "length": "59.7",
     "esrb": "E10+",
-    "price_new": 29.99,
     "fetch_status": "OK",
+    "price_new": 29.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -6235,8 +6218,8 @@
       "XboxOne"
     ],
     "length": "31.9",
-    "price_new": 44.95,
     "fetch_status": "OK",
+    "price_new": 44.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -6282,8 +6265,8 @@
     ],
     "length": "63.3",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 31.95,
+    "fetch_status": "OK",
     "difficulty": "Simple",
     "modes": [
       "single-player",
@@ -6309,8 +6292,8 @@
     ],
     "length": "35.8",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 60.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -6533,8 +6516,8 @@
     ],
     "length": "47.6",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 5.94,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -6587,8 +6570,8 @@
     ],
     "length": "33",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 10.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -6612,8 +6595,8 @@
     ],
     "length": "28",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 15.38,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -6637,8 +6620,8 @@
     ],
     "length": "23.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 23.45,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -6658,7 +6641,6 @@
     "platforms": [
       "PC"
     ],
-    "length": "Blades of TimeIn Blades of Time, players don the persona of the gorgeous gunsword-wielding treasure hunter, Ayumi. Blessed with ",
     "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
@@ -6682,8 +6664,8 @@
     ],
     "length": "44",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 12.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -6707,8 +6689,8 @@
     ],
     "length": "14.1",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 21.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -6808,8 +6790,8 @@
     ],
     "length": "10",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 13.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -6896,8 +6878,8 @@
       "PS4",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -6921,8 +6903,8 @@
       "Linux"
     ],
     "length": "40",
-    "fetch_status": "OK",
     "price_new": 41.19,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -6946,8 +6928,8 @@
     ],
     "length": "63.6",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 8.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -6970,8 +6952,8 @@
     ],
     "length": "45.6",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 15.45,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -6992,8 +6974,8 @@
     ],
     "length": "59.3",
     "esrb": "E",
-    "price_new": 6.43,
     "fetch_status": "OK",
+    "price_new": 6.43,
     "difficulty": "Just Right",
     "modes": []
   },
@@ -7014,8 +6996,8 @@
     ],
     "length": "60.3",
     "esrb": "E",
-    "price_new": 6.65,
     "fetch_status": "OK",
+    "price_new": 6.65,
     "difficulty": "Just Right",
     "modes": []
   },
@@ -7080,8 +7062,8 @@
     ],
     "length": "26.1",
     "esrb": "E10+",
-    "price_new": 15.45,
     "fetch_status": "OK",
+    "price_new": 15.45,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -7157,8 +7139,8 @@
     ],
     "length": "25.2",
     "esrb": "M",
-    "price_new": 6.49,
     "fetch_status": "OK",
+    "price_new": 6.49,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -7184,8 +7166,8 @@
     ],
     "length": "10.8",
     "esrb": "T",
-    "price_new": 12.67,
     "fetch_status": "OK",
+    "price_new": 12.67,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -7265,8 +7247,8 @@
     ],
     "length": "57.3",
     "esrb": "T",
-    "price_new": 29.99,
     "fetch_status": "OK",
+    "price_new": 29.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -7310,8 +7292,8 @@
     ],
     "length": "38.6",
     "esrb": "M",
-    "price_new": 5.49,
     "fetch_status": "OK",
+    "price_new": 5.49,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -7335,8 +7317,8 @@
     ],
     "length": "76.4",
     "esrb": "M",
-    "price_new": 10.22,
     "fetch_status": "OK",
+    "price_new": 10.22,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -7362,8 +7344,8 @@
     ],
     "length": "36.3",
     "esrb": "M",
-    "price_new": 15.0,
     "fetch_status": "OK",
+    "price_new": 15.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -7448,8 +7430,8 @@
     ],
     "length": "37.1",
     "esrb": "M",
-    "price_new": 4.09,
     "fetch_status": "OK",
+    "price_new": 4.09,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -7547,8 +7529,8 @@
     ],
     "length": "58.3",
     "esrb": "M",
-    "price_new": 17.99,
     "fetch_status": "OK",
+    "price_new": 17.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -7591,8 +7573,8 @@
     ],
     "length": "77.7",
     "esrb": "M",
-    "price_new": 10.65,
     "fetch_status": "OK",
+    "price_new": 10.65,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -7707,8 +7689,8 @@
     ],
     "length": "34.5",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 3.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -7731,8 +7713,8 @@
     ],
     "length": "80",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 44.18,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -7756,8 +7738,8 @@
     ],
     "length": "53.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 3.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -7843,7 +7825,6 @@
       "PC",
       "PS4"
     ],
-    "length": "Rea",
     "fetch_status": "OK",
     "description": "Kingdom Under Fire II is a video game set in a high fantasy setting developed by Blueside which merge real-time strategy (RTS), role-playing game (RPG) and massively multiplayer online game (MMO) genres - the game is to have a single player, and online multiplayer mode. The game follows on chronologically from Kingdom Under Fire: Circle of Doom, and is the first RTS game set in the Kingdom Under Fire universe to be released since the 2005 Kingdom Under Fire: Heroes."
   },
@@ -7865,8 +7846,8 @@
     ],
     "length": "24.1",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 9.5,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -7914,8 +7895,8 @@
     ],
     "length": "63.7",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 29.5,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -7954,8 +7935,8 @@
       "PS4",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": []
   },
   {
@@ -8064,8 +8045,8 @@
     ],
     "length": "67.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 17.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -8090,8 +8071,8 @@
     ],
     "length": "76.9",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 2.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -8158,8 +8139,8 @@
     ],
     "length": "22.7",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.83,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -8205,8 +8186,8 @@
     ],
     "length": "8",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 24.96,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -8253,8 +8234,8 @@
     ],
     "length": "14.8",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 12.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -8279,8 +8260,8 @@
     ],
     "length": "34.1",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 8.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -8304,8 +8285,8 @@
     ],
     "length": "78.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 22.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -8352,8 +8333,8 @@
     ],
     "length": "47.2",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 75.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -8415,7 +8396,6 @@
     "platforms": [
       "PC"
     ],
-    "length": "Rea",
     "fetch_status": "OK",
     "modes": [
       "single-player"
@@ -8441,8 +8421,8 @@
     ],
     "length": "74.2",
     "esrb": "E",
-    "price_new": 47.8,
     "fetch_status": "OK",
+    "price_new": 47.8,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -8528,8 +8508,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 9.08,
     "fetch_status": "OK",
+    "price_new": 9.08,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -8575,8 +8555,8 @@
     ],
     "length": "60",
     "esrb": "E",
-    "price_new": 29.95,
     "fetch_status": "OK",
+    "price_new": 29.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -8642,8 +8622,8 @@
     ],
     "length": "27.6",
     "esrb": "E10+",
-    "price_new": 10.48,
     "fetch_status": "OK",
+    "price_new": 10.48,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -8671,8 +8651,8 @@
     ],
     "length": "14.8",
     "esrb": "E",
-    "price_new": 10.88,
     "fetch_status": "OK",
+    "price_new": 10.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -8719,8 +8699,8 @@
       "PS4"
     ],
     "length": "10.3",
-    "price_new": 79.95,
     "fetch_status": "OK",
+    "price_new": 79.95,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -8761,8 +8741,8 @@
       "PC",
       "XboxOne"
     ],
-    "price_new": 59.99,
     "fetch_status": "OK",
+    "price_new": 59.99,
     "modes": [
       "single-player",
       "multiplayer"
@@ -8787,8 +8767,8 @@
     ],
     "length": "57.2",
     "esrb": "T",
-    "price_new": 43.5,
     "fetch_status": "OK",
+    "price_new": 43.5,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -8813,8 +8793,8 @@
     ],
     "length": "15.3",
     "esrb": "M",
-    "price_new": 16.03,
     "fetch_status": "OK",
+    "price_new": 16.03,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -8840,8 +8820,8 @@
     ],
     "length": "60.3",
     "esrb": "T",
-    "price_new": 12.99,
     "fetch_status": "OK",
+    "price_new": 12.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -8965,8 +8945,8 @@
     ],
     "length": "44.1",
     "esrb": "T",
-    "price_new": 8.49,
     "fetch_status": "OK",
+    "price_new": 8.49,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -9028,8 +9008,8 @@
     ],
     "length": "10.5",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 25.0,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "multiplayer"
@@ -9106,8 +9086,8 @@
     ],
     "length": "52.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -9129,8 +9109,8 @@
     ],
     "length": "67.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 29.39,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -9183,8 +9163,8 @@
     ],
     "length": "65.5",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 94.77,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -9301,8 +9281,8 @@
     ],
     "length": "33.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 11.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -9320,10 +9300,9 @@
     "release_date": "2008-09-08 00:00:00",
     "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Lock%27s_Quest.jpg/250px-Lock%27s_Quest.jpg",
     "platforms": [],
-    "length": "Rea",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 19.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player",
       "multiplayer"
@@ -9361,8 +9340,8 @@
     "platforms": [
       "PS4"
     ],
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -9387,8 +9366,8 @@
     ],
     "length": "27",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 18.75,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -9406,8 +9385,8 @@
       "PS4"
     ],
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 59.88,
+    "fetch_status": "OK",
     "modes": [
       "single-player",
       "multiplayer"
@@ -9430,8 +9409,8 @@
     ],
     "length": "15.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 29.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -9483,8 +9462,8 @@
     ],
     "length": "52.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 21.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -9510,8 +9489,8 @@
     ],
     "length": "20.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 13.24,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -9539,8 +9518,8 @@
     ],
     "length": "19.1",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 7.74,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -9606,8 +9585,8 @@
     ],
     "length": "26.1",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 11.03,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -9765,8 +9744,8 @@
     ],
     "length": "48.6",
     "esrb": "M",
-    "price_new": 10.96,
     "fetch_status": "OK",
+    "price_new": 10.96,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -9814,8 +9793,8 @@
     ],
     "length": "32",
     "esrb": "E10+",
-    "price_new": 16.38,
     "fetch_status": "OK",
+    "price_new": 16.38,
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -9838,8 +9817,8 @@
     ],
     "length": "37",
     "esrb": "E10+",
-    "price_new": 11.35,
     "fetch_status": "OK",
+    "price_new": 11.35,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -9862,8 +9841,8 @@
     ],
     "length": "43",
     "esrb": "E10+",
-    "price_new": 23.53,
     "fetch_status": "OK",
+    "price_new": 23.53,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -9886,8 +9865,8 @@
     ],
     "length": "48.8",
     "esrb": "E10+",
-    "price_new": 14.99,
     "fetch_status": "OK",
+    "price_new": 14.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -9911,8 +9890,8 @@
     ],
     "length": "31.5",
     "esrb": "M",
-    "price_new": 27.99,
     "fetch_status": "OK",
+    "price_new": 27.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -9935,8 +9914,8 @@
     ],
     "length": "79.4",
     "esrb": "M",
-    "price_new": 4.98,
     "fetch_status": "OK",
+    "price_new": 4.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -9957,7 +9936,6 @@
       "PC",
       "OSX"
     ],
-    "length": "",
     "fetch_status": "OK",
     "modes": [
       "single-player",
@@ -9978,8 +9956,8 @@
       "PS4",
       "XboxOne"
     ],
-    "price_new": 59.99,
     "fetch_status": "OK",
+    "price_new": 59.99,
     "modes": [
       "single-player",
       "multiplayer"
@@ -10049,8 +10027,8 @@
       "Linux"
     ],
     "length": "17.6",
-    "price_new": 15.0,
     "fetch_status": "OK",
+    "price_new": 15.0,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -10230,8 +10208,8 @@
     ],
     "length": "79.6",
     "esrb": "E",
-    "price_new": 4.99,
     "fetch_status": "OK",
+    "price_new": 4.99,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -10286,8 +10264,8 @@
     ],
     "length": "10",
     "esrb": "M",
-    "price_new": 17.4,
     "fetch_status": "OK",
+    "price_new": 17.4,
     "difficulty": "Simple",
     "modes": [
       "single-player"
@@ -10310,8 +10288,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 44.99,
     "fetch_status": "OK",
+    "price_new": 44.99,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -10360,8 +10338,8 @@
     ],
     "length": "58.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 7.39,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -10388,8 +10366,8 @@
     ],
     "length": "50.6",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 13.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -10418,8 +10396,8 @@
     ],
     "length": "34.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 4.9,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -10518,10 +10496,9 @@
       "PS4",
       "XboxOne"
     ],
-    "length": "Spider-Man: Edge of TimeDeveloped by Activision-owned studio Beenox, Spider-Man: Edge of Time challenges the player to take on the roles o",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -10569,8 +10546,8 @@
     ],
     "length": "63.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 16.63,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -10591,8 +10568,8 @@
       "PC",
       "PS4"
     ],
-    "fetch_status": "OK",
     "price_new": 39.88,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -10680,8 +10657,8 @@
       "PS4",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 29.96,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -10751,8 +10728,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 9.26,
     "fetch_status": "OK",
+    "price_new": 9.26,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -10822,8 +10799,8 @@
     ],
     "length": "22.2",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 55.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -10874,8 +10851,8 @@
     ],
     "length": "32.2",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -10921,8 +10898,8 @@
     ],
     "length": "44.3",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 1.9,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -10945,8 +10922,8 @@
     ],
     "length": "28.3",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 2.3,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -10972,8 +10949,8 @@
     ],
     "length": "33.3",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 19.99,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -11000,8 +10977,8 @@
     ],
     "length": "15.7",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 24.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -11023,8 +11000,8 @@
     ],
     "length": "35.9",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 15.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -11115,8 +11092,8 @@
       "XboxOne"
     ],
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -11140,8 +11117,8 @@
     ],
     "length": "12.6",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 26.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -11255,8 +11232,8 @@
     ],
     "length": "13.5",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 6.43,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -11280,8 +11257,8 @@
     ],
     "length": "80+",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 42.49,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -11348,8 +11325,8 @@
     ],
     "length": "29.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 89.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -11375,8 +11352,8 @@
     ],
     "length": "67.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 15.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -11403,8 +11380,8 @@
     ],
     "length": "75.3",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 24.03,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -11448,8 +11425,8 @@
     ],
     "length": "65.3",
     "esrb": "T",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -11472,8 +11449,8 @@
     ],
     "length": "20.6",
     "esrb": "M",
-    "price_new": 5.95,
     "fetch_status": "OK",
+    "price_new": 5.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -11544,8 +11521,8 @@
     ],
     "length": "25.4",
     "esrb": "M",
-    "price_new": 11.78,
     "fetch_status": "OK",
+    "price_new": 11.78,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -11591,8 +11568,8 @@
     ],
     "length": "44.3",
     "esrb": "M",
-    "price_new": 17.65,
     "fetch_status": "OK",
+    "price_new": 17.65,
     "difficulty": "Unforgiving",
     "modes": []
   },
@@ -11616,8 +11593,8 @@
     ],
     "length": "63.3",
     "esrb": "E",
-    "price_new": 31.95,
     "fetch_status": "OK",
+    "price_new": 31.95,
     "difficulty": "Simple",
     "modes": [
       "single-player",
@@ -11687,8 +11664,8 @@
     ],
     "length": "33.2",
     "esrb": "M",
-    "price_new": 7.43,
     "fetch_status": "OK",
+    "price_new": 7.43,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -11762,8 +11739,8 @@
     ],
     "length": "35.7",
     "esrb": "M",
-    "price_new": 49.0,
     "fetch_status": "OK",
+    "price_new": 49.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -11790,8 +11767,8 @@
     ],
     "length": "27.7",
     "esrb": "M",
-    "price_new": 13.99,
     "fetch_status": "OK",
+    "price_new": 13.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -11838,8 +11815,8 @@
     ],
     "length": "10.8",
     "esrb": "T",
-    "price_new": 9.39,
     "fetch_status": "OK",
+    "price_new": 9.39,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -11862,8 +11839,8 @@
     ],
     "length": "18.7",
     "esrb": "T",
-    "price_new": 27.0,
     "fetch_status": "OK",
+    "price_new": 27.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -12020,8 +11997,8 @@
     ],
     "length": "38.1",
     "esrb": "M",
-    "price_new": 6.35,
     "fetch_status": "OK",
+    "price_new": 6.35,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -12069,8 +12046,8 @@
     ],
     "length": "26.5",
     "esrb": "M",
-    "price_new": 2.99,
     "fetch_status": "OK",
+    "price_new": 2.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -12096,8 +12073,8 @@
     ],
     "length": "37",
     "esrb": "M",
-    "price_new": 6.9,
     "fetch_status": "OK",
+    "price_new": 6.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -12286,8 +12263,8 @@
     ],
     "length": "54.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 7.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -12405,8 +12382,8 @@
       "PC"
     ],
     "length": "19.9",
-    "price_new": 125.0,
     "fetch_status": "OK",
+    "price_new": 125.0,
     "difficulty": "Tough",
     "description": "Identity is an upcoming massively multiplayer online role-playing game (MMORPG) developed and published by Asylum Entertainment, Inc. for Microsoft Windows and Mac. In Identity, players will have the freedom to do a variety of open world activities including karaoke, paintballing, and even allows players to get their own in-game job and career. The game will also allow players to customise their own homes, and supports the ability to place various pieces of furniture in the home, including couches, as well as televisions, and computers."
   },
@@ -12478,8 +12455,8 @@
     ],
     "length": "20.9",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 11.31,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -12527,8 +12504,8 @@
     ],
     "length": "28.9",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 69.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -12596,8 +12573,8 @@
     ],
     "length": "55.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -12621,8 +12598,8 @@
     ],
     "length": "39.9",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 28.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -12644,7 +12621,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "Drakensang: The River of TimeStarting in Aventuria's Middenrealm in the city of Ferdok, the story of the games takes players down the Great Riv",
     "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
@@ -12673,8 +12649,8 @@
     ],
     "length": "40.9",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 3.32,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -12697,8 +12673,8 @@
     ],
     "length": "60.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -12746,8 +12722,8 @@
     ],
     "length": "45",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 6.75,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -12881,8 +12857,8 @@
     ],
     "length": "58.1",
     "esrb": "M",
-    "price_new": 8.0,
     "fetch_status": "OK",
+    "price_new": 8.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -12907,8 +12883,8 @@
     ],
     "length": "24.7",
     "esrb": "T",
-    "price_new": 12.09,
     "fetch_status": "OK",
+    "price_new": 12.09,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -12933,8 +12909,8 @@
     ],
     "length": "55.5",
     "esrb": "M",
-    "price_new": 7.43,
     "fetch_status": "OK",
+    "price_new": 7.43,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -13011,8 +12987,8 @@
     ],
     "length": "33.5",
     "esrb": "E",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -13107,8 +13083,8 @@
     ],
     "length": "23.9",
     "esrb": "T",
-    "price_new": 8.95,
     "fetch_status": "OK",
+    "price_new": 8.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -13174,8 +13150,8 @@
     ],
     "length": "32",
     "esrb": "E10+",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -13239,8 +13215,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 9.03,
     "fetch_status": "OK",
+    "price_new": 9.03,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -13266,8 +13242,8 @@
     ],
     "length": "31.8",
     "esrb": "E10+",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -13338,7 +13314,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "From 16 r",
     "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
@@ -13391,8 +13366,8 @@
     ],
     "length": "25",
     "esrb": "M",
-    "price_new": 1.41,
     "fetch_status": "OK",
+    "price_new": 1.41,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -13416,8 +13391,8 @@
     ],
     "length": "44",
     "esrb": "M",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -13442,8 +13417,8 @@
     ],
     "length": "29.9",
     "esrb": "M",
-    "price_new": 17.5,
     "fetch_status": "OK",
+    "price_new": 17.5,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -13605,8 +13580,8 @@
     ],
     "length": "17",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 7.68,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -13632,8 +13607,8 @@
     ],
     "length": "56.2",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 4.92,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -13727,8 +13702,8 @@
     ],
     "length": "38.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 3.41,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -13819,8 +13794,8 @@
     ],
     "length": "13.3",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -13893,8 +13868,8 @@
     ],
     "length": "30.6",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 21.25,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -13921,8 +13896,8 @@
     ],
     "length": "27.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 12.79,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -13973,8 +13948,8 @@
     ],
     "length": "25.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14045,8 +14020,8 @@
     ],
     "length": "20.2",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -14165,8 +14140,8 @@
     ],
     "length": "71.9",
     "esrb": "M",
-    "price_new": 51.45,
     "fetch_status": "OK",
+    "price_new": 51.45,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -14263,8 +14238,8 @@
     ],
     "length": "23",
     "esrb": "T",
-    "price_new": 14.43,
     "fetch_status": "OK",
+    "price_new": 14.43,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -14284,7 +14259,6 @@
       "PC",
       "XboxOne"
     ],
-    "length": "Rea",
     "esrb": "T",
     "fetch_status": "OK",
     "modes": [
@@ -14327,8 +14301,8 @@
       "XboxOne"
     ],
     "length": "14.1",
-    "fetch_status": "OK",
     "price_new": 7.56,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -14355,8 +14329,8 @@
     ],
     "length": "22.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14401,8 +14375,8 @@
     ],
     "length": "59.5",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 24.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14492,8 +14466,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 2.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -14515,8 +14489,8 @@
     ],
     "length": "23.3",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 13.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14585,8 +14559,8 @@
     ],
     "length": "38.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 8.25,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14632,8 +14606,8 @@
     "platforms": [],
     "length": "40.1",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 14.7,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14658,8 +14632,8 @@
     ],
     "length": "49.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 8.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14684,8 +14658,8 @@
     ],
     "length": "23.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14712,8 +14686,8 @@
     ],
     "length": "33.6",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -14752,7 +14726,6 @@
     "platforms": [
       "PS4"
     ],
-    "length": "Sly Cooper: Thieves in TimeSly Cooper Thieves in Time continues to chronicle the adventures of the Sly Cooper gang from where Sly 3: Honor Am",
     "esrb": "M",
     "fetch_status": "OK",
     "difficulty": "Just Right",
@@ -14780,8 +14753,8 @@
     ],
     "length": "27.1",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -14805,8 +14778,8 @@
     ],
     "length": "31.8",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 24.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14851,8 +14824,8 @@
       "PS4",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player",
       "multiplayer"
@@ -14899,8 +14872,8 @@
     ],
     "length": "57.2",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 43.5,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -14920,7 +14893,6 @@
       "PC",
       "PS4"
     ],
-    "length": "Rea",
     "esrb": "T",
     "fetch_status": "OK",
     "modes": [
@@ -14945,8 +14917,8 @@
     ],
     "length": "39.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 59.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -15046,8 +15018,8 @@
     ],
     "length": "41.9",
     "esrb": "E10+",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -15113,8 +15085,8 @@
     ],
     "length": "67.3",
     "esrb": "T",
-    "price_new": 14.99,
     "fetch_status": "OK",
+    "price_new": 14.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -15137,8 +15109,8 @@
     ],
     "length": "52.1",
     "esrb": "T",
-    "price_new": 15.88,
     "fetch_status": "OK",
+    "price_new": 15.88,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -15190,8 +15162,8 @@
     ],
     "length": "27.2",
     "esrb": "M",
-    "price_new": 19.99,
     "fetch_status": "OK",
+    "price_new": 19.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -15217,8 +15189,8 @@
     ],
     "length": "57.2",
     "esrb": "T",
-    "price_new": 1.46,
     "fetch_status": "OK",
+    "price_new": 1.46,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -15266,8 +15238,8 @@
     ],
     "length": "49.2",
     "esrb": "T",
-    "price_new": 26.54,
     "fetch_status": "OK",
+    "price_new": 26.54,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -15377,8 +15349,8 @@
       "PS4",
       "XboxOne"
     ],
-    "price_new": 59.96,
     "fetch_status": "OK",
+    "price_new": 59.96,
     "modes": [
       "single-player",
       "multiplayer"
@@ -15399,8 +15371,8 @@
       "XboxOne"
     ],
     "esrb": "T",
-    "price_new": 34.99,
     "fetch_status": "OK",
+    "price_new": 34.99,
     "modes": [
       "single-player"
     ]
@@ -15468,8 +15440,8 @@
     ],
     "length": "20.1",
     "esrb": "T",
-    "price_new": 24.74,
     "fetch_status": "OK",
+    "price_new": 24.74,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -15494,8 +15466,8 @@
     ],
     "length": "68.2",
     "esrb": "T",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -15521,8 +15493,8 @@
     ],
     "length": "43",
     "esrb": "M",
-    "price_new": 6.96,
     "fetch_status": "OK",
+    "price_new": 6.96,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -15591,8 +15563,8 @@
     ],
     "length": "39.1",
     "esrb": "T",
-    "price_new": 9.3,
     "fetch_status": "OK",
+    "price_new": 9.3,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -15620,8 +15592,8 @@
     ],
     "length": "36.2",
     "esrb": "T",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -15669,8 +15641,8 @@
     ],
     "length": "58.3",
     "esrb": "T",
-    "price_new": 72.99,
     "fetch_status": "OK",
+    "price_new": 72.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -15691,8 +15663,8 @@
     ],
     "length": "46",
     "esrb": "T",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -15718,8 +15690,8 @@
     ],
     "length": "66.6",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 8.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -15808,8 +15780,8 @@
     ],
     "length": "13.8",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -15833,8 +15805,8 @@
     ],
     "length": "68.9",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 20.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -15857,8 +15829,8 @@
     ],
     "length": "80",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 15.65,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -15882,8 +15854,8 @@
     ],
     "length": "64",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -15910,8 +15882,8 @@
     ],
     "length": "17.3",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 5.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -15958,8 +15930,8 @@
     ],
     "length": "19",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 5.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -16005,8 +15977,8 @@
     ],
     "length": "56.9",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 3.36,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -16052,8 +16024,8 @@
     ],
     "length": "21.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 39.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -16073,8 +16045,8 @@
       "PS4",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 24.35,
+    "fetch_status": "OK",
     "modes": [
       "single-player",
       "multiplayer"
@@ -16099,8 +16071,8 @@
     ],
     "length": "61.3",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -16126,8 +16098,8 @@
     ],
     "length": "37",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 7.5,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -16263,8 +16235,8 @@
     ],
     "length": "75.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 14.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -16354,8 +16326,8 @@
     ],
     "length": "54.1",
     "esrb": "T",
-    "price_new": 21.48,
     "fetch_status": "OK",
+    "price_new": 21.48,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -16379,8 +16351,8 @@
     ],
     "length": "21.4",
     "esrb": "E10+",
-    "price_new": 19.87,
     "fetch_status": "OK",
+    "price_new": 19.87,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -16465,8 +16437,8 @@
     ],
     "length": "62.2",
     "esrb": "T",
-    "price_new": 27.46,
     "fetch_status": "OK",
+    "price_new": 27.46,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -16513,8 +16485,8 @@
     ],
     "length": "27.7",
     "esrb": "E",
-    "price_new": 18.48,
     "fetch_status": "OK",
+    "price_new": 18.48,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -16556,8 +16528,8 @@
     ],
     "length": "47.1",
     "esrb": "T",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -16624,8 +16596,8 @@
     ],
     "length": "61.7",
     "esrb": "T",
-    "price_new": 5.99,
     "fetch_status": "OK",
+    "price_new": 5.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -16650,8 +16622,8 @@
     ],
     "length": "42.6",
     "esrb": "M",
-    "price_new": 4.86,
     "fetch_status": "OK",
+    "price_new": 4.86,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -16676,8 +16648,8 @@
     ],
     "length": "47",
     "esrb": "E10+",
-    "price_new": 14.63,
     "fetch_status": "OK",
+    "price_new": 14.63,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -16878,8 +16850,8 @@
     ],
     "length": "10.7",
     "esrb": "M",
-    "price_new": 13.54,
     "fetch_status": "OK",
+    "price_new": 13.54,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -16902,8 +16874,8 @@
     ],
     "length": "74.5",
     "esrb": "T",
-    "price_new": 7.09,
     "fetch_status": "OK",
+    "price_new": 7.09,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -16930,8 +16902,8 @@
     ],
     "length": "11",
     "esrb": "M",
-    "price_new": 9.98,
     "fetch_status": "OK",
+    "price_new": 9.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -16954,8 +16926,8 @@
     ],
     "length": "25",
     "esrb": "E",
-    "price_new": 54.95,
     "fetch_status": "OK",
+    "price_new": 54.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -17042,8 +17014,8 @@
     ],
     "length": "17.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 20.58,
+    "fetch_status": "OK",
     "difficulty": "Simple",
     "modes": []
   },
@@ -17087,8 +17059,8 @@
     ],
     "length": "80+",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -17183,8 +17155,8 @@
     ],
     "length": "34.9",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 23.73,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -17518,7 +17490,6 @@
       "Android",
       "iOS"
     ],
-    "length": "Blades of TimeIn Blades of Time, players don the persona of the gorgeous gunsword-wielding treasure hunter, Ayumi. Blessed with ",
     "fetch_status": "OK",
     "modes": []
   },
@@ -17579,8 +17550,8 @@
     ],
     "length": "28.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 14.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -17696,8 +17667,8 @@
     ],
     "length": "20",
     "esrb": "T",
-    "price_new": 21.95,
     "fetch_status": "OK",
+    "price_new": 21.95,
     "difficulty": "Just Right",
     "modes": []
   },
@@ -17742,8 +17713,8 @@
     ],
     "length": "56.7",
     "esrb": "E",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": []
   },
@@ -17765,10 +17736,9 @@
       "PS4",
       "XboxOne"
     ],
-    "length": "Adventur",
     "esrb": "E10+",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Simple",
     "modes": []
   },
@@ -17789,8 +17759,8 @@
     ],
     "length": "73.3",
     "esrb": "T",
-    "price_new": 64.99,
     "fetch_status": "OK",
+    "price_new": 64.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -17890,10 +17860,9 @@
       "PC",
       "OSX"
     ],
-    "length": "From 17 r",
     "esrb": "T",
-    "price_new": 3.0,
     "fetch_status": "OK",
+    "price_new": 3.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -17960,8 +17929,8 @@
     ],
     "length": "46",
     "esrb": "M",
-    "price_new": 79.0,
     "fetch_status": "OK",
+    "price_new": 79.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -18024,8 +17993,8 @@
     ],
     "length": "10",
     "esrb": "M",
-    "price_new": 9.0,
     "fetch_status": "OK",
+    "price_new": 9.0,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -18142,8 +18111,8 @@
     ],
     "length": "25.2",
     "esrb": "E",
-    "price_new": 49.99,
     "fetch_status": "OK",
+    "price_new": 49.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -18192,8 +18161,8 @@
     ],
     "length": "27.3",
     "esrb": "E",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -18239,8 +18208,8 @@
     ],
     "length": "26.7",
     "esrb": "M",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -18266,8 +18235,8 @@
     ],
     "length": "25.4",
     "esrb": "E10+",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -18293,8 +18262,8 @@
     ],
     "length": "44.1",
     "esrb": "M",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -18319,8 +18288,8 @@
     ],
     "length": "12",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 22.96,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -18342,8 +18311,8 @@
     ],
     "length": "16.6",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 7.25,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -18367,8 +18336,8 @@
       "Linux"
     ],
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -18392,8 +18361,8 @@
     ],
     "length": "37.9",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 79.91,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -18575,8 +18544,8 @@
     ],
     "length": "23.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 2.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -18646,8 +18615,8 @@
     ],
     "length": "42.6",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 2.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -18672,8 +18641,8 @@
     ],
     "length": "53.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 7.45,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -18700,8 +18669,8 @@
     ],
     "length": "37.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -18751,10 +18720,9 @@
       "PC",
       "iOS"
     ],
-    "length": "Prince of Persia: The Sands of TimeEmbark on a journey of scorched sands and ancient legends.  A young prince, drawn to the dark powers of a magic da",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 1.75,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -18777,8 +18745,8 @@
     ],
     "length": "44.1",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 16.82,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -18804,8 +18772,8 @@
     ],
     "length": "37.7",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 38.4,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -18931,8 +18899,8 @@
     ],
     "length": "49.3",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -19053,8 +19021,8 @@
     ],
     "length": "36.8",
     "esrb": "E10+",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -19102,8 +19070,8 @@
     ],
     "length": "52.9",
     "esrb": "T",
-    "price_new": 19.99,
     "fetch_status": "OK",
+    "price_new": 19.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -19128,8 +19096,8 @@
     ],
     "length": "25.5",
     "esrb": "M",
-    "price_new": 3.48,
     "fetch_status": "OK",
+    "price_new": 3.48,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -19154,8 +19122,8 @@
     ],
     "length": "59.8",
     "esrb": "E",
-    "price_new": 9.84,
     "fetch_status": "OK",
+    "price_new": 9.84,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -19180,8 +19148,8 @@
     ],
     "length": "51.5",
     "esrb": "E",
-    "price_new": 9.75,
     "fetch_status": "OK",
+    "price_new": 9.75,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -19310,8 +19278,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 44.99,
     "fetch_status": "OK",
+    "price_new": 44.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -19333,8 +19301,8 @@
     ],
     "length": "18.8",
     "esrb": "M",
-    "price_new": 5.28,
     "fetch_status": "OK",
+    "price_new": 5.28,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -19356,8 +19324,8 @@
       "Linux"
     ],
     "esrb": "M",
-    "price_new": 17.99,
     "fetch_status": "OK",
+    "price_new": 17.99,
     "modes": [
       "single-player"
     ]
@@ -19396,8 +19364,8 @@
     ],
     "length": "74.7",
     "esrb": "E10+",
-    "price_new": 6.0,
     "fetch_status": "OK",
+    "price_new": 6.0,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -19468,8 +19436,8 @@
     ],
     "length": "26",
     "esrb": "T",
-    "price_new": 19.0,
     "fetch_status": "OK",
+    "price_new": 19.0,
     "difficulty": "Easy",
     "modes": []
   },
@@ -19516,8 +19484,8 @@
     ],
     "length": "54.2",
     "esrb": "M",
-    "price_new": 5.95,
     "fetch_status": "OK",
+    "price_new": 5.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -19605,8 +19573,8 @@
     ],
     "length": "27.1",
     "esrb": "T",
-    "price_new": 34.95,
     "fetch_status": "OK",
+    "price_new": 34.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -19626,8 +19594,8 @@
     "user_rating": "3.12",
     "platforms": [],
     "length": "17.1",
-    "price_new": 12.99,
     "fetch_status": "OK",
+    "price_new": 12.99,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -19694,8 +19662,8 @@
     ],
     "length": "19.3",
     "esrb": "E",
-    "price_new": 39.99,
     "fetch_status": "OK",
+    "price_new": 39.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -19770,8 +19738,8 @@
       "OSX"
     ],
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 49.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -19791,8 +19759,8 @@
       "PS4",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 49.5,
+    "fetch_status": "OK",
     "modes": [
       "single-player",
       "multiplayer"
@@ -19884,8 +19852,8 @@
     ],
     "length": "33.5",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -19909,8 +19877,8 @@
       "XboxOne"
     ],
     "length": "13.7",
-    "fetch_status": "OK",
     "price_new": 7.5,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -19967,8 +19935,8 @@
     ],
     "length": "27.9",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 0.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -20016,8 +19984,8 @@
     ],
     "length": "40.2",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 2.98,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -20067,8 +20035,8 @@
     ],
     "length": "11.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 12.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -20156,8 +20124,8 @@
     ],
     "length": "12",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.43,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -20179,8 +20147,8 @@
     ],
     "length": "44.4",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 10.5,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -20204,8 +20172,8 @@
     ],
     "length": "63",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 17.0,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -20274,8 +20242,8 @@
     ],
     "length": "17.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -20364,8 +20332,8 @@
     ],
     "length": "28.7",
     "esrb": "M",
-    "price_new": 11.99,
     "fetch_status": "OK",
+    "price_new": 11.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -20452,8 +20420,8 @@
     "platforms": [
       "PC"
     ],
-    "price_new": 29.99,
     "fetch_status": "OK",
+    "price_new": 29.99,
     "modes": [
       "single-player"
     ]
@@ -20629,8 +20597,8 @@
     ],
     "length": "19.5",
     "esrb": "T",
-    "price_new": 27.11,
     "fetch_status": "OK",
+    "price_new": 27.11,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -20701,8 +20669,8 @@
     ],
     "length": "12",
     "esrb": "E",
-    "price_new": 9.95,
     "fetch_status": "OK",
+    "price_new": 9.95,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -20748,8 +20716,8 @@
     ],
     "length": "73.2",
     "esrb": "M",
-    "price_new": 10.68,
     "fetch_status": "OK",
+    "price_new": 10.68,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -20777,8 +20745,8 @@
     ],
     "length": "30.1",
     "esrb": "M",
-    "price_new": 4.95,
     "fetch_status": "OK",
+    "price_new": 4.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -20800,8 +20768,8 @@
     ],
     "length": "0.5",
     "esrb": "E",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -21005,8 +20973,8 @@
     ],
     "length": "18.8",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 88.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -21052,8 +21020,8 @@
     ],
     "length": "11.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -21101,8 +21069,8 @@
     ],
     "length": "67",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -21249,8 +21217,8 @@
     ],
     "length": "12.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 6.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -21298,8 +21266,8 @@
     ],
     "length": "25",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 2.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -21367,8 +21335,8 @@
     ],
     "length": "56.6",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 22.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -21392,8 +21360,8 @@
     ],
     "length": "17.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 160.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -21486,8 +21454,8 @@
     ],
     "length": "29.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 5.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -21512,8 +21480,8 @@
     ],
     "length": "73.1",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 10.28,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -21540,8 +21508,8 @@
     ],
     "length": "49.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 2.98,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -21636,8 +21604,8 @@
     ],
     "length": "79.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 7.25,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -21660,8 +21628,8 @@
     ],
     "length": "37.8",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -21775,10 +21743,9 @@
     "platforms": [
       "PC"
     ],
-    "length": "From 13 r",
     "esrb": "T",
-    "price_new": 29.25,
     "fetch_status": "OK",
+    "price_new": 29.25,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -21871,8 +21838,8 @@
       "XboxOne"
     ],
     "length": "5.2",
-    "price_new": 19.99,
     "fetch_status": "OK",
+    "price_new": 19.99,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -21985,7 +21952,6 @@
       "PS4",
       "Linux"
     ],
-    "length": "Rea",
     "fetch_status": "OK",
     "modes": [
       "single-player",
@@ -22053,8 +22019,8 @@
     "platforms": [],
     "length": "29.2",
     "esrb": "E",
-    "price_new": 2.84,
     "fetch_status": "OK",
+    "price_new": 2.84,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -22098,8 +22064,8 @@
     ],
     "length": "80+",
     "esrb": "M",
-    "price_new": 19.93,
     "fetch_status": "OK",
+    "price_new": 19.93,
     "difficulty": "Tough",
     "modes": [
       "multiplayer"
@@ -22122,8 +22088,8 @@
     ],
     "length": "26.3",
     "esrb": "T",
-    "price_new": 5.9,
     "fetch_status": "OK",
+    "price_new": 5.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22165,8 +22131,8 @@
     ],
     "length": "29.4",
     "esrb": "T",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -22235,8 +22201,8 @@
     ],
     "length": "31",
     "esrb": "E10+",
-    "price_new": 2.98,
     "fetch_status": "OK",
+    "price_new": 2.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22279,9 +22245,8 @@
       "XboxOne",
       "Linux"
     ],
-    "length": "Rea",
-    "price_new": 49.99,
     "fetch_status": "OK",
+    "price_new": 49.99,
     "modes": [
       "single-player"
     ]
@@ -22362,8 +22327,8 @@
     "platforms": [
       "PS4"
     ],
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -22406,8 +22371,8 @@
     ],
     "length": "36.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -22500,8 +22465,8 @@
     ],
     "length": "42.1",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 25.19,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "description": "Tactical Legends is an upcoming turn-based tactics video game for Microsoft Windows. The game has been green-lighted by the Steam community, and will be released in December 2016. An online version as well as versions for macOS, Linux, Xbox, Playstation, iOS and Android are currently planned. The game is currently available to download from the developer's website."
   },
@@ -22586,8 +22551,8 @@
     ],
     "length": "23.6",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 8.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22612,8 +22577,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 2.0,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "multiplayer"
@@ -22655,8 +22620,8 @@
     ],
     "length": "43.4",
     "esrb": "T",
-    "price_new": 199.99,
     "fetch_status": "OK",
+    "price_new": 199.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -22787,8 +22752,8 @@
     ],
     "length": "55.9",
     "esrb": "E",
-    "price_new": 2.95,
     "fetch_status": "OK",
+    "price_new": 2.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22813,8 +22778,8 @@
     ],
     "length": "65.5",
     "esrb": "E",
-    "price_new": 7.95,
     "fetch_status": "OK",
+    "price_new": 7.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22839,8 +22804,8 @@
     ],
     "length": "47.7",
     "esrb": "E",
-    "price_new": 5.24,
     "fetch_status": "OK",
+    "price_new": 5.24,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22865,8 +22830,8 @@
     ],
     "length": "49.7",
     "esrb": "E",
-    "price_new": 1.41,
     "fetch_status": "OK",
+    "price_new": 1.41,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22893,8 +22858,8 @@
     ],
     "length": "63.8",
     "esrb": "E",
-    "price_new": 2.6,
     "fetch_status": "OK",
+    "price_new": 2.6,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22919,8 +22884,8 @@
     ],
     "length": "46.2",
     "esrb": "E",
-    "price_new": 2.6,
     "fetch_status": "OK",
+    "price_new": 2.6,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22947,8 +22912,8 @@
     ],
     "length": "54.6",
     "esrb": "E",
-    "price_new": 1.9,
     "fetch_status": "OK",
+    "price_new": 1.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22975,8 +22940,8 @@
     ],
     "length": "57.1",
     "esrb": "E",
-    "price_new": 4.38,
     "fetch_status": "OK",
+    "price_new": 4.38,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -22999,8 +22964,8 @@
       "PC"
     ],
     "length": "18.1",
-    "price_new": 99.99,
     "fetch_status": "OK",
+    "price_new": 99.99,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -23090,8 +23055,8 @@
     ],
     "length": "31.7",
     "esrb": "M",
-    "price_new": 0.8,
     "fetch_status": "OK",
+    "price_new": 0.8,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -23114,8 +23079,8 @@
     ],
     "length": "35.7",
     "esrb": "T",
-    "price_new": 95.0,
     "fetch_status": "OK",
+    "price_new": 95.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -23142,8 +23107,8 @@
     ],
     "length": "15.9",
     "esrb": "M",
-    "price_new": 7.9,
     "fetch_status": "OK",
+    "price_new": 7.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -23330,8 +23295,8 @@
     ],
     "length": "38.9",
     "esrb": "T",
-    "price_new": 85.2,
     "fetch_status": "OK",
+    "price_new": 85.2,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -23427,8 +23392,8 @@
     ],
     "length": "46.5",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -23453,8 +23418,8 @@
     ],
     "length": "46.7",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 17.99,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -23477,8 +23442,8 @@
     ],
     "length": "30.2",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 88.99,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -23527,8 +23492,8 @@
     ],
     "length": "68.2",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 5.77,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -23616,8 +23581,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 34.99,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "multiplayer"
@@ -23748,8 +23713,8 @@
     ],
     "length": "16",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 3.3,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -23828,8 +23793,8 @@
     ],
     "length": "23.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -23955,8 +23920,8 @@
     ],
     "length": "21.3",
     "esrb": "M",
-    "price_new": 29.95,
     "fetch_status": "OK",
+    "price_new": 29.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -23982,8 +23947,8 @@
     ],
     "length": "44.1",
     "esrb": "T",
-    "price_new": 7.86,
     "fetch_status": "OK",
+    "price_new": 7.86,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -24057,8 +24022,8 @@
     ],
     "length": "13.9",
     "esrb": "T",
-    "price_new": 49.99,
     "fetch_status": "OK",
+    "price_new": 49.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -24126,8 +24091,8 @@
     ],
     "length": "17.6",
     "esrb": "T",
-    "price_new": 5.88,
     "fetch_status": "OK",
+    "price_new": 5.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -24153,8 +24118,8 @@
     ],
     "length": "48.6",
     "esrb": "M",
-    "price_new": 6.81,
     "fetch_status": "OK",
+    "price_new": 6.81,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -24182,8 +24147,8 @@
     ],
     "length": "28.9",
     "esrb": "E",
-    "price_new": 2.99,
     "fetch_status": "OK",
+    "price_new": 2.99,
     "difficulty": "Just Right",
     "modes": []
   },
@@ -24319,8 +24284,8 @@
     ],
     "length": "39",
     "esrb": "M",
-    "price_new": 59.49,
     "fetch_status": "OK",
+    "price_new": 59.49,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -24344,8 +24309,8 @@
     ],
     "length": "19.1",
     "esrb": "T",
-    "price_new": 26.0,
     "fetch_status": "OK",
+    "price_new": 26.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -24370,8 +24335,8 @@
     ],
     "length": "32.4",
     "esrb": "M",
-    "price_new": 2.6,
     "fetch_status": "OK",
+    "price_new": 2.6,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -24421,8 +24386,8 @@
     ],
     "length": "80+",
     "esrb": "E10+",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -24472,8 +24437,8 @@
     ],
     "length": "15.1",
     "esrb": "M",
-    "price_new": 7.99,
     "fetch_status": "OK",
+    "price_new": 7.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -24542,8 +24507,8 @@
     ],
     "length": "18.6",
     "esrb": "E",
-    "price_new": 65.56,
     "fetch_status": "OK",
+    "price_new": 65.56,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -24566,8 +24531,8 @@
     ],
     "length": "22",
     "esrb": "M",
-    "price_new": 1.99,
     "fetch_status": "OK",
+    "price_new": 1.99,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -24695,8 +24660,8 @@
     ],
     "length": "80+",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 39.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -24723,8 +24688,8 @@
     ],
     "length": "37.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -24750,8 +24715,8 @@
     ],
     "length": "41.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 5.19,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -24819,8 +24784,8 @@
     ],
     "length": "60.6",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -24843,8 +24808,8 @@
     ],
     "length": "24",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 8.54,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -24867,7 +24832,6 @@
       "PS4",
       "XboxOne"
     ],
-    "length": "Rea",
     "fetch_status": "OK",
     "modes": [
       "single-player",
@@ -24907,8 +24871,8 @@
     ],
     "length": "53.8",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 5.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -24972,8 +24936,8 @@
     ],
     "length": "20",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 22.07,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -24996,8 +24960,8 @@
     ],
     "length": "33.2",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 33.3,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -25021,8 +24985,8 @@
     ],
     "length": "47.8",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -25047,8 +25011,8 @@
     ],
     "length": "48.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 2.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -25068,7 +25032,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "S",
     "fetch_status": "OK",
     "modes": [
       "single-player"
@@ -25179,7 +25142,6 @@
       "Android",
       "iOS"
     ],
-    "length": "Plants vs Zombies 2: It's About TimeThe zombies are coming back. Its about time! The sequel to the hit action-strategy adventure with over 30 Game of ",
     "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
@@ -25227,8 +25189,8 @@
       "iOS"
     ],
     "length": "24.9",
-    "fetch_status": "OK",
     "price_new": 38.08,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -25251,8 +25213,8 @@
     ],
     "length": "50",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 3.95,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -25427,8 +25389,8 @@
     ],
     "length": "22",
     "esrb": "M",
-    "price_new": 0.56,
     "fetch_status": "OK",
+    "price_new": 0.56,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -25450,8 +25412,8 @@
     ],
     "length": "43.1",
     "esrb": "T",
-    "price_new": 9.22,
     "fetch_status": "OK",
+    "price_new": 9.22,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -25474,8 +25436,8 @@
     ],
     "length": "50.6",
     "esrb": "T",
-    "price_new": 45.36,
     "fetch_status": "OK",
+    "price_new": 45.36,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -25522,8 +25484,8 @@
     ],
     "length": "19.3",
     "esrb": "M",
-    "price_new": 2.6,
     "fetch_status": "OK",
+    "price_new": 2.6,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -25545,8 +25507,8 @@
     ],
     "length": "24",
     "esrb": "T",
-    "price_new": 32.99,
     "fetch_status": "OK",
+    "price_new": 32.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -25572,8 +25534,8 @@
     ],
     "length": "51.9",
     "esrb": "T",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -25606,7 +25568,7 @@
       "platformer",
       "puzzle"
     ],
-    "description": "Miegakure is an upcoming indie video game platformer in which the gamer explores four-dimensional space in order to solve various higher-dimensional puzzles within a garden setting. Inspired by the classic science-fiction novella Flatland: A Romance of Many Dimensions by Edwin Abbot Abbot, Miegakure plays much like a regular three-dimensional platformer, but at the press of a button one of the dimensions is exchanged with its four-dimensional counterpart, allowing for four-dimensional movement as the player explores this new dimension in the same way that a two-dimensional being would explore the third, experiencing the various consequences of being able to move within a four-dimensional space by allowing players to experience it first-hand, using trial and error.",
+    "modes": [],
     "title": "Miegakure",
     "platforms": [
       "PC",
@@ -25615,7 +25577,7 @@
       "Linux"
     ],
     "fetch_status": "OK",
-    "modes": []
+    "description": "Miegakure is an upcoming indie video game platformer in which the gamer explores four-dimensional space in order to solve various higher-dimensional puzzles within a garden setting. Inspired by the classic science-fiction novella Flatland: A Romance of Many Dimensions by Edwin Abbot Abbot, Miegakure plays much like a regular three-dimensional platformer, but at the press of a button one of the dimensions is exchanged with its four-dimensional counterpart, allowing for four-dimensional movement as the player explores this new dimension in the same way that a two-dimensional being would explore the third, experiencing the various consequences of being able to move within a four-dimensional space by allowing players to experience it first-hand, using trial and error."
   },
   {
     "publisher": "Valve Corporation",
@@ -25698,7 +25660,6 @@
     "platforms": [
       "PC"
     ],
-    "length": "",
     "fetch_status": "OK",
     "modes": [
       "single-player"
@@ -25791,8 +25752,8 @@
     ],
     "length": "18.5",
     "esrb": "M",
-    "price_new": 5.64,
     "fetch_status": "OK",
+    "price_new": 5.64,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -25953,8 +25914,8 @@
     ],
     "length": "7.5",
     "esrb": "M",
-    "price_new": 2.86,
     "fetch_status": "OK",
+    "price_new": 2.86,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -25981,8 +25942,8 @@
     ],
     "length": "41.6",
     "esrb": "M",
-    "price_new": 2.98,
     "fetch_status": "OK",
+    "price_new": 2.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -26007,8 +25968,8 @@
     ],
     "length": "34.8",
     "esrb": "M",
-    "price_new": 10.19,
     "fetch_status": "OK",
+    "price_new": 10.19,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -26033,8 +25994,8 @@
     ],
     "length": "30.2",
     "esrb": "M",
-    "price_new": 2.99,
     "fetch_status": "OK",
+    "price_new": 2.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -26102,8 +26063,8 @@
     ],
     "length": "35.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 39.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -26237,8 +26198,8 @@
     ],
     "length": "26.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 19.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -26259,7 +26220,6 @@
       "Android",
       "iOS"
     ],
-    "length": "From 36 r",
     "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
@@ -26282,8 +26242,8 @@
     ],
     "length": "20.6",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -26353,8 +26313,8 @@
     ],
     "length": "11.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -26379,8 +26339,8 @@
     ],
     "length": "18.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 15.23,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -26468,10 +26428,9 @@
     "price_used": 5.55,
     "user_rating": "4.47",
     "platforms": [],
-    "length": "Sly Cooper: Thieves in TimeSly Cooper Thieves in Time continues to chronicle the adventures of the Sly Cooper gang from where Sly 3: Honor Am",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 17.32,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -26597,8 +26556,8 @@
     ],
     "length": "30",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 54.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -26626,8 +26585,8 @@
     ],
     "length": "41.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 20.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -26693,8 +26652,8 @@
       "XboxOne"
     ],
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 39.85,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -26790,8 +26749,8 @@
     ],
     "length": "63.6",
     "esrb": "T",
-    "price_new": 1.99,
     "fetch_status": "OK",
+    "price_new": 1.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -26862,8 +26821,8 @@
     ],
     "length": "16",
     "esrb": "T",
-    "price_new": 12.91,
     "fetch_status": "OK",
+    "price_new": 12.91,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -27007,8 +26966,8 @@
     ],
     "length": "35",
     "esrb": "T",
-    "price_new": 33.88,
     "fetch_status": "OK",
+    "price_new": 33.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -27036,8 +26995,8 @@
     ],
     "length": "8",
     "esrb": "E10+",
-    "price_new": 79.95,
     "fetch_status": "OK",
+    "price_new": 79.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -27061,8 +27020,8 @@
     ],
     "length": "52.7",
     "esrb": "T",
-    "price_new": 28.88,
     "fetch_status": "OK",
+    "price_new": 28.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -27172,8 +27131,8 @@
     ],
     "length": "38",
     "esrb": "E10+",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -27197,8 +27156,8 @@
     ],
     "length": "61.2",
     "esrb": "T",
-    "price_new": 14.37,
     "fetch_status": "OK",
+    "price_new": 14.37,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -27222,8 +27181,8 @@
     ],
     "length": "64",
     "esrb": "T",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -27269,8 +27228,8 @@
     ],
     "length": "23.9",
     "esrb": "T",
-    "price_new": 59.21,
     "fetch_status": "OK",
+    "price_new": 59.21,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -27294,8 +27253,8 @@
       "XboxOne"
     ],
     "esrb": "M",
-    "price_new": 59.96,
     "fetch_status": "OK",
+    "price_new": 59.96,
     "modes": [
       "single-player",
       "multiplayer"
@@ -27450,8 +27409,8 @@
     ],
     "length": "21.5",
     "esrb": "M",
-    "price_new": 12.76,
     "fetch_status": "OK",
+    "price_new": 12.76,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -27517,8 +27476,8 @@
     ],
     "length": "69.9",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 5.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -27590,8 +27549,8 @@
     ],
     "length": "19.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 12.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -27613,8 +27572,8 @@
     ],
     "length": "36",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 9.78,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -27749,8 +27708,8 @@
     ],
     "length": "18.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 28.7,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -27819,8 +27778,8 @@
     ],
     "length": "30.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 44.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -27864,8 +27823,8 @@
     ],
     "length": "74.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -28089,8 +28048,8 @@
     ],
     "length": "55.9",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 2.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -28112,8 +28071,8 @@
     ],
     "length": "75.5",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -28136,8 +28095,8 @@
     ],
     "length": "76.4",
     "esrb": "T",
-    "price_new": 43.99,
     "fetch_status": "OK",
+    "price_new": 43.99,
     "difficulty": "Just Right",
     "modes": []
   },
@@ -28226,8 +28185,8 @@
     ],
     "length": "35",
     "esrb": "E10+",
-    "price_new": 2.98,
     "fetch_status": "OK",
+    "price_new": 2.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -28275,8 +28234,8 @@
       "Linux"
     ],
     "esrb": "E10+",
-    "price_new": 39.99,
     "fetch_status": "OK",
+    "price_new": 39.99,
     "modes": [
       "single-player",
       "multiplayer"
@@ -28300,8 +28259,8 @@
     ],
     "length": "63.6",
     "esrb": "T",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": []
   },
@@ -28426,8 +28385,8 @@
     ],
     "length": "17.3",
     "esrb": "T",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -28499,8 +28458,8 @@
     ],
     "length": "56.2",
     "esrb": "E10+",
-    "price_new": 19.48,
     "fetch_status": "OK",
+    "price_new": 19.48,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -28569,8 +28528,8 @@
     ],
     "length": "60.9",
     "esrb": "M",
-    "price_new": 32.0,
     "fetch_status": "OK",
+    "price_new": 32.0,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -28653,8 +28612,8 @@
     ],
     "length": "60",
     "esrb": "E10+",
-    "price_new": 52.0,
     "fetch_status": "OK",
+    "price_new": 52.0,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -28680,8 +28639,8 @@
     ],
     "length": "39",
     "esrb": "M",
-    "price_new": 2.98,
     "fetch_status": "OK",
+    "price_new": 2.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -28704,8 +28663,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -28769,8 +28728,8 @@
     ],
     "length": "55.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 2.17,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -28887,8 +28846,8 @@
     ],
     "length": "40.7",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 55.0,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -28932,8 +28891,8 @@
     ],
     "length": "12.3",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 14.97,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -28978,8 +28937,8 @@
     ],
     "length": "60.7",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 4.45,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -29006,8 +28965,8 @@
     ],
     "length": "23.8",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 6.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -29051,8 +29010,8 @@
     ],
     "length": "31.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.9,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -29170,8 +29129,8 @@
     ],
     "length": "49.6",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 0.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -29211,8 +29170,8 @@
     "user_rating": "3.49",
     "platforms": [],
     "length": "7.2",
-    "fetch_status": "OK",
     "price_new": 98.5,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "multiplayer"
@@ -29260,8 +29219,8 @@
     ],
     "length": "11.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 17.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -29284,8 +29243,8 @@
     ],
     "length": "32.6",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -29360,8 +29319,8 @@
     ],
     "length": "55.9",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 8.91,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -29388,8 +29347,8 @@
     ],
     "length": "59.4",
     "esrb": "M",
-    "price_new": 2.98,
     "fetch_status": "OK",
+    "price_new": 2.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -29415,8 +29374,8 @@
     ],
     "length": "11.4",
     "esrb": "M",
-    "price_new": 1.99,
     "fetch_status": "OK",
+    "price_new": 1.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -29438,8 +29397,8 @@
     ],
     "length": "37.7",
     "esrb": "E10+",
-    "price_new": 13.21,
     "fetch_status": "OK",
+    "price_new": 13.21,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -29463,8 +29422,8 @@
     ],
     "length": "63.5",
     "esrb": "M",
-    "price_new": 6.79,
     "fetch_status": "OK",
+    "price_new": 6.79,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -29511,8 +29470,8 @@
     ],
     "length": "53.1",
     "esrb": "M",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -29694,8 +29653,8 @@
     ],
     "length": "53.3",
     "esrb": "M",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -29744,8 +29703,8 @@
     ],
     "length": "20.1",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 2.6,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -29795,8 +29754,8 @@
     ],
     "length": "63",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 7.4,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -29822,8 +29781,8 @@
     ],
     "length": "19.6",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -29846,7 +29805,6 @@
       "PC",
       "OSX"
     ],
-    "length": "From 6 r",
     "esrb": "M",
     "fetch_status": "OK",
     "difficulty": "Just Right",
@@ -29967,8 +29925,8 @@
     ],
     "length": "26.5",
     "esrb": "T",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -30019,8 +29977,8 @@
     ],
     "length": "24.8",
     "esrb": "E10+",
-    "price_new": 9.54,
     "fetch_status": "OK",
+    "price_new": 9.54,
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -30074,8 +30032,8 @@
     ],
     "length": "18.4",
     "esrb": "M",
-    "price_new": 9.33,
     "fetch_status": "OK",
+    "price_new": 9.33,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -30122,8 +30080,8 @@
     ],
     "length": "41.4",
     "esrb": "T",
-    "price_new": 1.88,
     "fetch_status": "OK",
+    "price_new": 1.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -30198,8 +30156,8 @@
     ],
     "length": "79.4",
     "esrb": "M",
-    "price_new": 2.98,
     "fetch_status": "OK",
+    "price_new": 2.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -30267,8 +30225,8 @@
     ],
     "length": "26.9",
     "esrb": "M",
-    "price_new": 24.27,
     "fetch_status": "OK",
+    "price_new": 24.27,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -30292,10 +30250,9 @@
     "platforms": [
       "PC"
     ],
-    "length": "From 44 r",
     "esrb": "T",
-    "price_new": 8.3,
     "fetch_status": "OK",
+    "price_new": 8.3,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -30319,8 +30276,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 25.0,
     "fetch_status": "OK",
+    "price_new": 25.0,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -30344,8 +30301,8 @@
     ],
     "length": "62.5",
     "esrb": "T",
-    "price_new": 11.25,
     "fetch_status": "OK",
+    "price_new": 11.25,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -30369,8 +30326,8 @@
     ],
     "length": "44.3",
     "esrb": "M",
-    "price_new": 2.98,
     "fetch_status": "OK",
+    "price_new": 2.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -30395,8 +30352,8 @@
     ],
     "length": "46.5",
     "esrb": "M",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -30417,8 +30374,8 @@
     "platforms": [],
     "length": "14.4",
     "esrb": "E",
-    "price_new": 0.01,
     "fetch_status": "OK",
+    "price_new": 0.01,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -30527,8 +30484,8 @@
     ],
     "length": "37.4",
     "esrb": "M",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -30604,8 +30561,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 0.99,
     "fetch_status": "OK",
+    "price_new": 0.99,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -30628,8 +30585,8 @@
     ],
     "length": "31.5",
     "esrb": "E10+",
-    "price_new": 29.99,
     "fetch_status": "OK",
+    "price_new": 29.99,
     "difficulty": "Simple",
     "modes": [
       "single-player"
@@ -30652,8 +30609,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 3.0,
     "fetch_status": "OK",
+    "price_new": 3.0,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -30676,8 +30633,8 @@
     ],
     "length": "19.7",
     "esrb": "T",
-    "price_new": 17.9,
     "fetch_status": "OK",
+    "price_new": 17.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -30814,8 +30771,8 @@
     ],
     "length": "19.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -30884,8 +30841,8 @@
     ],
     "length": "32.1",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -30909,8 +30866,8 @@
     ],
     "length": "63.8",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -30930,8 +30887,8 @@
     ],
     "length": "35.8",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31002,8 +30959,8 @@
     ],
     "length": "69.9",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 17.63,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -31048,8 +31005,8 @@
     ],
     "length": "25.8",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 18.49,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -31150,8 +31107,8 @@
     ],
     "length": "54.6",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 2.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -31176,8 +31133,8 @@
     ],
     "length": "59.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 29.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31240,8 +31197,8 @@
     ],
     "length": "3.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 10.99,
+    "fetch_status": "OK",
     "difficulty": "Simple",
     "modes": [
       "single-player"
@@ -31263,8 +31220,8 @@
     ],
     "length": "13.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31287,8 +31244,8 @@
     ],
     "length": "16.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 5.84,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31339,8 +31296,8 @@
     ],
     "length": "45.7",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31365,8 +31322,8 @@
     ],
     "length": "22.9",
     "esrb": "E10+",
-    "price_new": 8.88,
     "fetch_status": "OK",
+    "price_new": 8.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31417,8 +31374,8 @@
     ],
     "length": "31.1",
     "esrb": "E10+",
-    "price_new": 1.88,
     "fetch_status": "OK",
+    "price_new": 1.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31441,8 +31398,8 @@
     ],
     "length": "70.8",
     "esrb": "T",
-    "price_new": 1.01,
     "fetch_status": "OK",
+    "price_new": 1.01,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -31465,8 +31422,8 @@
     ],
     "length": "59.7",
     "esrb": "E10+",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -31628,8 +31585,8 @@
     ],
     "length": "47.3",
     "esrb": "T",
-    "price_new": 1.89,
     "fetch_status": "OK",
+    "price_new": 1.89,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -31701,8 +31658,8 @@
     ],
     "length": "39.9",
     "esrb": "M",
-    "price_new": 14.99,
     "fetch_status": "OK",
+    "price_new": 14.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31726,8 +31683,8 @@
     ],
     "length": "45.2",
     "esrb": "T",
-    "price_new": 15.9,
     "fetch_status": "OK",
+    "price_new": 15.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31754,8 +31711,8 @@
     ],
     "length": "10.1",
     "esrb": "E10+",
-    "price_new": 2.28,
     "fetch_status": "OK",
+    "price_new": 2.28,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31778,8 +31735,8 @@
     ],
     "length": "18.9",
     "esrb": "M",
-    "price_new": 4.99,
     "fetch_status": "OK",
+    "price_new": 4.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -31824,8 +31781,8 @@
     ],
     "length": "32.8",
     "esrb": "E",
-    "price_new": 2.75,
     "fetch_status": "OK",
+    "price_new": 2.75,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -31985,8 +31942,8 @@
     ],
     "length": "28.8",
     "esrb": "M",
-    "price_new": 2.6,
     "fetch_status": "OK",
+    "price_new": 2.6,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -32037,8 +31994,8 @@
     ],
     "length": "37.9",
     "esrb": "T",
-    "price_new": 6.14,
     "fetch_status": "OK",
+    "price_new": 6.14,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32061,8 +32018,8 @@
     ],
     "length": "13.6",
     "esrb": "T",
-    "price_new": 4.95,
     "fetch_status": "OK",
+    "price_new": 4.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32107,8 +32064,8 @@
     ],
     "length": "74.4",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 41.84,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32131,8 +32088,8 @@
     ],
     "length": "56.3",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 25.02,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32155,8 +32112,8 @@
     ],
     "length": "26.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32203,8 +32160,8 @@
     ],
     "length": "43.3",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 2.6,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32251,8 +32208,8 @@
     ],
     "length": "44.7",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 2.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32276,8 +32233,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 40.94,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -32441,8 +32398,8 @@
     ],
     "length": "20.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 17.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32650,8 +32607,8 @@
     ],
     "length": "8.1",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 18.9,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -32739,8 +32696,8 @@
     ],
     "length": "42.7",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 3.5,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -32781,8 +32738,8 @@
     ],
     "length": "21.9",
     "esrb": "E10+",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32808,8 +32765,8 @@
     ],
     "length": "24",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 8.54,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32830,8 +32787,8 @@
       "PS4",
       "XboxOne"
     ],
-    "price_new": 59.96,
     "fetch_status": "OK",
+    "price_new": 59.96,
     "modes": [
       "single-player"
     ]
@@ -32854,8 +32811,8 @@
     ],
     "length": "17.7",
     "esrb": "M",
-    "price_new": 8.88,
     "fetch_status": "OK",
+    "price_new": 8.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32902,8 +32859,8 @@
     ],
     "length": "47",
     "esrb": "E10+",
-    "price_new": 1.88,
     "fetch_status": "OK",
+    "price_new": 1.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32927,8 +32884,8 @@
     ],
     "length": "63.4",
     "esrb": "E10+",
-    "price_new": 8.88,
     "fetch_status": "OK",
+    "price_new": 8.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -32952,8 +32909,8 @@
     ],
     "length": "46",
     "esrb": "E10+",
-    "price_new": 9.67,
     "fetch_status": "OK",
+    "price_new": 9.67,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33064,8 +33021,8 @@
     ],
     "length": "37.9",
     "esrb": "M",
-    "price_new": 15.6,
     "fetch_status": "OK",
+    "price_new": 15.6,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -33111,8 +33068,8 @@
     ],
     "length": "54.1",
     "esrb": "T",
-    "price_new": 9.9,
     "fetch_status": "OK",
+    "price_new": 9.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -33131,7 +33088,6 @@
     "platforms": [
       "PC"
     ],
-    "length": "Card Wars - Adventur",
     "fetch_status": "OK",
     "modes": [
       "single-player"
@@ -33180,8 +33136,8 @@
     ],
     "length": "32.3",
     "esrb": "M",
-    "price_new": 6.89,
     "fetch_status": "OK",
+    "price_new": 6.89,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -33208,8 +33164,8 @@
     ],
     "length": "21.8",
     "esrb": "E10+",
-    "price_new": 1.88,
     "fetch_status": "OK",
+    "price_new": 1.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33261,8 +33217,8 @@
     ],
     "length": "22.2",
     "esrb": "M",
-    "price_new": 87.99,
     "fetch_status": "OK",
+    "price_new": 87.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -33285,8 +33241,8 @@
     ],
     "length": "15.6",
     "esrb": "M",
-    "price_new": 8.88,
     "fetch_status": "OK",
+    "price_new": 8.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33381,8 +33337,8 @@
     ],
     "length": "23",
     "esrb": "M",
-    "price_new": 18.75,
     "fetch_status": "OK",
+    "price_new": 18.75,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -33406,8 +33362,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 59.99,
     "fetch_status": "OK",
+    "price_new": 59.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33452,8 +33408,8 @@
     ],
     "length": "18.6",
     "esrb": "M",
-    "price_new": 14.99,
     "fetch_status": "OK",
+    "price_new": 14.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -33478,8 +33434,8 @@
     ],
     "length": "17.4",
     "esrb": "M",
-    "price_new": 4.99,
     "fetch_status": "OK",
+    "price_new": 4.99,
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -33518,8 +33474,8 @@
     ],
     "length": "56.3",
     "esrb": "E",
-    "price_new": 22.5,
     "fetch_status": "OK",
+    "price_new": 22.5,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33540,8 +33496,8 @@
       "PS4",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -33567,8 +33523,8 @@
     ],
     "length": "20.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 2.14,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -33617,8 +33573,8 @@
     ],
     "length": "23.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 1.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33641,8 +33597,8 @@
     ],
     "length": "61",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 44.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33714,8 +33670,8 @@
     ],
     "length": "40.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33738,8 +33694,8 @@
     ],
     "length": "10.3",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 2.69,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33760,7 +33716,6 @@
       "PC",
       "XboxOne"
     ],
-    "length": "Blades of TimeIn Blades of Time, players don the persona of the gorgeous gunsword-wielding treasure hunter, Ayumi. Blessed with ",
     "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
@@ -33833,8 +33788,8 @@
     ],
     "length": "48.3",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 7.0,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -33878,8 +33833,8 @@
     ],
     "length": "68",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 64.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -33954,8 +33909,8 @@
     ],
     "length": "43.8",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 29.74,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -33979,8 +33934,8 @@
     ],
     "length": "75.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -34075,8 +34030,8 @@
     ],
     "length": "19.4",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -34122,8 +34077,8 @@
     ],
     "length": "14.7",
     "esrb": "T",
-    "price_new": 29.24,
     "fetch_status": "OK",
+    "price_new": 29.24,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -34241,8 +34196,8 @@
     ],
     "length": "65.5",
     "esrb": "T",
-    "price_new": 9.99,
     "fetch_status": "OK",
+    "price_new": 9.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -34265,7 +34220,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "Blades of TimeIn Blades of Time, players don the persona of the gorgeous gunsword-wielding treasure hunter, Ayumi. Blessed with ",
     "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
@@ -34315,8 +34269,8 @@
     ],
     "length": "19.9",
     "esrb": "M",
-    "price_new": 199.99,
     "fetch_status": "OK",
+    "price_new": 199.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -34407,8 +34361,8 @@
     ],
     "length": "36.4",
     "esrb": "M",
-    "price_new": 2.98,
     "fetch_status": "OK",
+    "price_new": 2.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -34486,8 +34440,8 @@
     ],
     "length": "29",
     "esrb": "E10+",
-    "price_new": 14.17,
     "fetch_status": "OK",
+    "price_new": 14.17,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -34554,8 +34508,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 1.79,
     "fetch_status": "OK",
+    "price_new": 1.79,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -34579,8 +34533,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "price_new": 8.88,
     "fetch_status": "OK",
+    "price_new": 8.88,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -34618,8 +34572,8 @@
     "platforms": [
       "PS4"
     ],
-    "price_new": 59.99,
     "fetch_status": "OK",
+    "price_new": 59.99,
     "modes": [
       "single-player",
       "multiplayer"
@@ -34661,8 +34615,8 @@
     ],
     "length": "38.5",
     "esrb": "T",
-    "price_new": 1.88,
     "fetch_status": "OK",
+    "price_new": 1.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -34685,8 +34639,8 @@
     ],
     "length": "62.1",
     "esrb": "T",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -34737,8 +34691,8 @@
     ],
     "length": "28.4",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 29.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -34787,8 +34741,8 @@
     ],
     "length": "18.7",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 2.6,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -34811,8 +34765,8 @@
     ],
     "length": "57",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 8.49,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -34859,10 +34813,9 @@
       "Android",
       "iOS"
     ],
-    "length": "Final Fantasy Crystal Chronicles: Echoes of TimeAn innovative new concept in multiplayer gaming, Final Fantasy Crystal Chronicles: Echoes of Time enables Wii and ",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 16.89,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -35012,8 +34965,8 @@
     ],
     "length": "57.7",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -35036,8 +34989,8 @@
     ],
     "length": "68.3",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 13.04,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -35110,8 +35063,8 @@
     ],
     "length": "61",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 2.59,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -35269,8 +35222,8 @@
     ],
     "length": "18.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -35319,8 +35272,8 @@
     ],
     "length": "21.7",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Tough",
     "modes": [
       "single-player"
@@ -35347,8 +35300,8 @@
     ],
     "length": "23.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 9.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -35396,8 +35349,8 @@
     ],
     "length": "51.5",
     "esrb": "T",
-    "price_new": 29.8,
     "fetch_status": "OK",
+    "price_new": 29.8,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -35446,8 +35399,8 @@
     ],
     "length": "52.8",
     "esrb": "T",
-    "price_new": 52.32,
     "fetch_status": "OK",
+    "price_new": 52.32,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -35471,8 +35424,8 @@
     ],
     "length": "79.6",
     "esrb": "E10+",
-    "price_new": 8.88,
     "fetch_status": "OK",
+    "price_new": 8.88,
     "difficulty": "Tough",
     "modes": []
   },
@@ -35538,8 +35491,8 @@
     ],
     "length": "71.6",
     "esrb": "T",
-    "price_new": 13.0,
     "fetch_status": "OK",
+    "price_new": 13.0,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -35658,8 +35611,8 @@
     ],
     "length": "34.2",
     "esrb": "E10+",
-    "price_new": 7.0,
     "fetch_status": "OK",
+    "price_new": 7.0,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -35728,8 +35681,8 @@
     ],
     "length": "28.4",
     "esrb": "M",
-    "price_new": 6.64,
     "fetch_status": "OK",
+    "price_new": 6.64,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -35756,8 +35709,8 @@
     ],
     "length": "26.3",
     "esrb": "M",
-    "price_new": 5.95,
     "fetch_status": "OK",
+    "price_new": 5.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -35809,8 +35762,8 @@
     ],
     "length": "50.2",
     "esrb": "E",
-    "price_new": 8.88,
     "fetch_status": "OK",
+    "price_new": 8.88,
     "difficulty": "Just Right",
     "modes": []
   },
@@ -35832,8 +35785,8 @@
     ],
     "length": "32.6",
     "esrb": "T",
-    "price_new": 17.97,
     "fetch_status": "OK",
+    "price_new": 17.97,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -35862,8 +35815,8 @@
     ],
     "length": "12",
     "esrb": "M",
-    "price_new": 8.88,
     "fetch_status": "OK",
+    "price_new": 8.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -35889,8 +35842,8 @@
     ],
     "length": "33.2",
     "esrb": "E10+",
-    "price_new": 22.01,
     "fetch_status": "OK",
+    "price_new": 22.01,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -36069,8 +36022,8 @@
     "platforms": [
       "PS4"
     ],
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -36135,7 +36088,6 @@
       "Android",
       "iOS"
     ],
-    "length": "Card Wars - Adventur",
     "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": []
@@ -36177,8 +36129,8 @@
     ],
     "length": "16.2",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -36203,8 +36155,8 @@
     ],
     "length": "62",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -36225,7 +36177,6 @@
       "PC",
       "OSX"
     ],
-    "length": "Blades of TimeIn Blades of Time, players don the persona of the gorgeous gunsword-wielding treasure hunter, Ayumi. Blessed with ",
     "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
@@ -36252,8 +36203,8 @@
     ],
     "length": "49.2",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 1.58,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -36276,8 +36227,8 @@
       "PS4"
     ],
     "length": "57.1",
-    "fetch_status": "OK",
     "price_new": 39.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -36323,8 +36274,8 @@
     ],
     "length": "31.1",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 42.99,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -36344,9 +36295,8 @@
       "PS4",
       "Linux"
     ],
-    "length": "Rea",
-    "fetch_status": "OK",
     "price_new": 59.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player",
       "multiplayer"
@@ -36505,8 +36455,8 @@
     ],
     "length": "16",
     "esrb": "E",
-    "fetch_status": "OK",
     "price_new": 74.9,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -36525,7 +36475,6 @@
     "platforms": [
       "PC"
     ],
-    "length": "Pac-Man: Adventures in TimeFive gigantic worlds; over 45 3-D mazes; wild maze designs, including spheres and cylinders; 16 playable sub-level",
     "esrb": "E",
     "fetch_status": "OK",
     "difficulty": "Easy",
@@ -36577,8 +36526,8 @@
     ],
     "length": "44",
     "esrb": "T",
-    "price_new": 9.9,
     "fetch_status": "OK",
+    "price_new": 9.9,
     "difficulty": "Tough",
     "modes": [
       "single-player",
@@ -36760,8 +36709,8 @@
       "XboxOne"
     ],
     "esrb": "M",
-    "price_new": 59.99,
     "fetch_status": "OK",
+    "price_new": 59.99,
     "modes": [
       "single-player"
     ]
@@ -36785,8 +36734,8 @@
     ],
     "length": "79.4",
     "esrb": "M",
-    "price_new": 4.98,
     "fetch_status": "OK",
+    "price_new": 4.98,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -36827,8 +36776,8 @@
     ],
     "length": "56",
     "esrb": "E",
-    "price_new": 26.71,
     "fetch_status": "OK",
+    "price_new": 26.71,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -36853,8 +36802,8 @@
     ],
     "length": "57.6",
     "esrb": "E",
-    "price_new": 23.51,
     "fetch_status": "OK",
+    "price_new": 23.51,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -36879,8 +36828,8 @@
     ],
     "length": "52.1",
     "esrb": "E",
-    "price_new": 3.9,
     "fetch_status": "OK",
+    "price_new": 3.9,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -36948,8 +36897,8 @@
     ],
     "length": "30.8",
     "esrb": "M",
-    "price_new": 16.63,
     "fetch_status": "OK",
+    "price_new": 16.63,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -36968,8 +36917,8 @@
       "PS4"
     ],
     "esrb": "E10+",
-    "price_new": 39.96,
     "fetch_status": "OK",
+    "price_new": 39.96,
     "modes": [
       "single-player"
     ]
@@ -37036,8 +36985,8 @@
     ],
     "length": "15",
     "esrb": "T",
-    "price_new": 43.01,
     "fetch_status": "OK",
+    "price_new": 43.01,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -37061,8 +37010,8 @@
     ],
     "length": "34.5",
     "esrb": "M",
-    "price_new": 8.88,
     "fetch_status": "OK",
+    "price_new": 8.88,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -37089,8 +37038,8 @@
     ],
     "length": "20.1",
     "esrb": "M",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -37115,8 +37064,8 @@
     ],
     "length": "64.7",
     "esrb": "M",
-    "price_new": 20.44,
     "fetch_status": "OK",
+    "price_new": 20.44,
     "difficulty": "Unforgiving",
     "modes": [
       "single-player",
@@ -37158,8 +37107,8 @@
     ],
     "length": "58.8",
     "esrb": "T",
-    "price_new": 2.99,
     "fetch_status": "OK",
+    "price_new": 2.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -37228,8 +37177,8 @@
     ],
     "length": "7.3",
     "esrb": "T",
-    "price_new": 17.0,
     "fetch_status": "OK",
+    "price_new": 17.0,
     "difficulty": "Simple",
     "modes": []
   },
@@ -37280,8 +37229,8 @@
     ],
     "length": "62",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 23.0,
+    "fetch_status": "OK",
     "difficulty": "Unforgiving",
     "modes": [
       "single-player",
@@ -37330,8 +37279,8 @@
       "OSX"
     ],
     "length": "12",
-    "fetch_status": "OK",
     "price_new": 46.98,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": []
   },
@@ -37370,8 +37319,8 @@
       "PS4",
       "XboxOne"
     ],
-    "fetch_status": "OK",
     "price_new": 99.99,
+    "fetch_status": "OK",
     "modes": [
       "single-player"
     ]
@@ -37420,8 +37369,8 @@
     ],
     "length": "66.4",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 28.46,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -37553,8 +37502,8 @@
     ],
     "length": "33.9",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -37708,8 +37657,8 @@
     ],
     "length": "15.5",
     "esrb": "M",
-    "fetch_status": "OK",
     "price_new": 5.4,
+    "fetch_status": "OK",
     "difficulty": "Simple",
     "modes": [
       "single-player"
@@ -37733,8 +37682,8 @@
     ],
     "length": "27.6",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 10.1,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -37784,8 +37733,8 @@
     ],
     "length": "80+",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 69.98,
+    "fetch_status": "OK",
     "difficulty": "Easy",
     "modes": [
       "single-player",
@@ -37832,8 +37781,8 @@
     ],
     "length": "29.2",
     "esrb": "T",
-    "fetch_status": "OK",
     "price_new": 8.88,
+    "fetch_status": "OK",
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -37997,7 +37946,6 @@
       "OSX",
       "Linux"
     ],
-    "length": "S",
     "fetch_status": "OK",
     "modes": [
       "single-player"
@@ -38107,8 +38055,8 @@
     "platforms": [],
     "length": "18.9",
     "esrb": "E",
-    "price_new": 47.45,
     "fetch_status": "OK",
+    "price_new": 47.45,
     "difficulty": "Easy",
     "modes": [
       "single-player"
@@ -38157,8 +38105,8 @@
     ],
     "length": "31.2",
     "esrb": "M",
-    "price_new": 1.89,
     "fetch_status": "OK",
+    "price_new": 1.89,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -38206,8 +38154,8 @@
     ],
     "length": "21.8",
     "esrb": "E",
-    "price_new": 39.64,
     "fetch_status": "OK",
+    "price_new": 39.64,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -38277,8 +38225,8 @@
     ],
     "length": "35.6",
     "esrb": "M",
-    "price_new": 10.1,
     "fetch_status": "OK",
+    "price_new": 10.1,
     "difficulty": "Just Right",
     "modes": [
       "single-player"
@@ -38301,8 +38249,8 @@
     ],
     "length": "79.8",
     "esrb": "T",
-    "price_new": 4.2,
     "fetch_status": "OK",
+    "price_new": 4.2,
     "difficulty": "Just Right",
     "modes": [
       "multiplayer"
@@ -38325,8 +38273,8 @@
     ],
     "length": "21.6",
     "esrb": "T",
-    "price_new": 20.79,
     "fetch_status": "OK",
+    "price_new": 20.79,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -38377,8 +38325,8 @@
     ],
     "length": "30.7",
     "esrb": "M",
-    "price_new": 16.95,
     "fetch_status": "OK",
+    "price_new": 16.95,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -38402,8 +38350,8 @@
     ],
     "length": "22.7",
     "esrb": "M",
-    "price_new": 1.99,
     "fetch_status": "OK",
+    "price_new": 1.99,
     "difficulty": "Just Right",
     "modes": [
       "single-player",
@@ -38430,8 +38378,8 @@
     ],
     "length": "69.5",
     "esrb": "M",
-    "price_new": 1.58,
     "fetch_status": "OK",
+    "price_new": 1.58,
     "difficulty": "Tough",
     "modes": [
       "single-player",

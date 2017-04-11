@@ -7,6 +7,7 @@ from unidecode import unidecode
 def format_str(str):
 	return unidecode(str.replace('"', ''))
 
+
 def multislot(genre_list):
 	genres = ''
 	if genre_list is None:
@@ -14,6 +15,9 @@ def multislot(genre_list):
 	for genre in genre_list:
 		genres += ' "{}"'.format(genre)
 	return genres.strip()
+
+def format_na(str, suffix=''):
+	return str + suffix if str else 'Not available'
 
 # Generate clips facts
 def gen_facts():
@@ -50,9 +54,9 @@ def gen_facts():
 			platforms=multislot(game.get('platforms')),
 			age_range=game.get('esrb'),
 			game_modes=multislot(game.get('modes')),
-			release_date=game.get('release_date') or 'Not available',
-			length=game.get('length') or 'Not available',
-			difficulty=game.get('difficulty') or 'Not available',
+			release_date=format_na(game.get('release_date')),
+			length=format_na(game.get('length'), ' hour(s)'),
+			difficulty=format_na(game.get('difficulty')),
 			cover=game.get('cover') or 'https://yt3.ggpht.com/2tDwwVVEuy0ja92htLiC-JZdfqUB1ogR--jjSph3Ybk068mSQkoOhG9YdvYvgDrWyjCIvi9JOubtFIyi=s900-nd-c-c0xffffffff-rj-k-no'
 		))
 		file.write('\n')
@@ -97,5 +101,5 @@ def get_properties():
 
 # Generate facts from game list
 if __name__ == "__main__":
-	# gen_facts()
-	get_properties()
+	gen_facts()
+	# get_properties()
