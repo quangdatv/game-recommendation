@@ -89,6 +89,11 @@
   justify-content: flex-start;
 }
 
+.recommendation-header, .search-result-header {
+  width: 100%;
+  text-align: center;
+}
+
 #card-template {
   display: none;
 }

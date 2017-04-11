@@ -1,3 +1,5 @@
+var notLoginMessage = "Please sign in to use this feature!";
+
 // variable indicate we are fetching data from server
 var isFetching = false;
 var currentDetailGame = null;
@@ -38,10 +40,13 @@ function handleItemSelected() {
   var $container = $($(this).parents()[1]);
   var allowMultipleValues = $container.attr("multiple-values") !== undefined;
   if (!allowMultipleValues) {
+    var isCurrentSelected = $(this).hasClass("selected");
     $container.find(".option-item").each(function(index, item) {
       $(item).removeClass("selected");
     });
-    $(this).addClass("selected");
+    if (!isCurrentSelected) {
+      $(this).toggleClass("selected");
+    }
   } else {
     $(this).toggleClass("selected");
   }
@@ -163,6 +168,8 @@ function handleSearch() {
   if (isFetching) {
     return;
   }
+  $('.search-result-header').show();
+  $('.recommendation-header').hide();
   var data = collectFormData();
   startFetching();
   $.post("/api/search", data)
@@ -212,8 +219,11 @@ function toggleReviewForm() {
 }
 
 function onReviewFormSubmit(event) {
-  console.log("submitttttt");
-  if (!currentDetailGame) return;
+  if (!isLogin) {
+    showErrorMessage(notLoginMessage);
+    return false;
+  }
+  if (!currentDetailGame) return false;
   event.preventDefault();
   var $form = $("#review-form");
   var reviewComment = $form.find("textarea[name='review-comment']").val();
@@ -236,6 +246,7 @@ function resetReviewForm() {
 }
 
 function likeButtonClicked() {
+  if (!isLogin) showErrorMessage(notLoginMessage);
   if (!isLogin || !currentDetailGame) return;
   // is_like = true / false / undefined corresponding to like / dislike / none
   var likeStatus = currentDetailGame.is_liked;
@@ -258,6 +269,7 @@ function likeButtonClicked() {
 }
 
 function dislikeButtonClicked() {
+  if (!isLogin) showErrorMessage(notLoginMessage);  
   if (!isLogin || !currentDetailGame) return;
   var likeStatus = currentDetailGame.is_liked;
   if (likeStatus === false) {
@@ -293,4 +305,8 @@ function updateCurrentGameStatus() {
   } else {
     $("#card-detail-container .dislike-button").addClass("active").removeClass("outline");
   }
+}
+
+function showErrorMessage(message) {
+  alert(message);
 }

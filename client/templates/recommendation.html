@@ -85,12 +85,19 @@
         </div>
         You can try by reloading the page or checking your internet connection
       </div>
+
+      <div class="ui dividing header recommendation-header">
+          <h2 class="">Recommended games for you</h2>
+      </div>
+      <div class="ui dividing header search-result-header" style="display:none">
+          <h2 class="">Search results</h2>
+      </div>
     </div>
 
     <div class="fullscreen ui modal" id="card-detail-container">
       <div class="card-detail-main">
         <div class="card-detail-image-wrapper">
-          <img class="card-detail-image" src=""/>
+          <img class="card-detail-image" src="" onerror="this.src='/static/images/default.jpg'"/>
         </div>
         <p class="card-detail-description"> </p>
       </div>
@@ -123,7 +130,7 @@
   </div>
   <div id="card-template" class="card-container">
     <div class="card-image-wrapper">
-      <img class="card-image" src=""/>
+      <img class="card-image" src="" src="" onerror="this.src='/static/images/default.jpg'"/>
     </div>
     <div class="card-content">
       <div class="card-name"> Game </div>
